@@ -1,0 +1,1 @@
+Extract all details about the phrasal verb 'GET' from the transcript and provide an explanation in your own words. Begin with the first quarter and wait for my confirmation before proceeding to the second quarter.

@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>6.5. Struct.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<p><strong>Question:</strong></p>
+<ol>
+<li>🌟 We must specify concrete values for each of the fields in struct.</li>
+</ol>
+<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Person</span></span> {
+    name: <span class="hljs-built_in">String</span>,
+    age: <span class="hljs-built_in">u8</span>,
+    hobby: <span class="hljs-built_in">String</span>
+}
+<span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">main</span></span>() {
+    <span class="hljs-keyword">let</span> age = <span class="hljs-number">30</span>;
+    <span class="hljs-keyword">let</span> p = Person {
+        name: <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"sunface"</span>),
+        age,
+    };
+
+    <span class="hljs-built_in">println!</span>(<span class="hljs-string">"Success!"</span>);
+} 
+</div></code></pre>
+<p>In this code, you are trying to initialize a <code>Person</code> struct. However, the struct definition requires three fields: <code>name</code>, <code>age</code>, and <code>hobby</code>. But in the main function, only <code>name</code> and <code>age</code> are provided. This causes an error as all fields of a struct must be initialized when creating an instance of it.</p>
+<p><strong>Answer:</strong></p>
+<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Person</span></span> {
+    name: <span class="hljs-built_in">String</span>,
+    age: <span class="hljs-built_in">u8</span>,
+    hobby: <span class="hljs-built_in">String</span>
+}
+<span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">main</span></span>() {
+    <span class="hljs-keyword">let</span> age = <span class="hljs-number">30</span>;
+    <span class="hljs-keyword">let</span> p = Person {
+        name: <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"sunface"</span>),
+        age,
+        hobby: <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"coding"</span>),
+    };
+
+    <span class="hljs-built_in">println!</span>(<span class="hljs-string">"Success!"</span>);
+}
+</div></code></pre>
+<p>In the corrected code, all three fields <code>name</code>, <code>age</code>, and <code>hobby</code> are initialized when creating the <code>Person</code> instance. <code>name</code> is set to &quot;sunface&quot;, <code>age</code> is set to <code>30</code> (the value of the <code>age</code> variable), and <code>hobby</code> is set to &quot;coding&quot;.</p>
+<hr>
+<ol start="2">
+<li>🌟 Unit struct don't have any fields. It can be useful when you need to implement a trait on some type but don’t have any data that you want to store in the type itself.</li>
+</ol>
+<p><strong>Question:</strong></p>
+<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Unit</span></span>;
+<span class="hljs-class"><span class="hljs-keyword">trait</span> <span class="hljs-title">SomeTrait</span></span> {
+    <span class="hljs-comment">// ...Some behaviors defined here.</span>
+}
+
+<span class="hljs-comment">// We don't care about what fields  are  in the Unit, but we care about its behaviors.</span>
+<span class="hljs-comment">// So we use a struct with no fields and implement some behaviors for it</span>
+<span class="hljs-keyword">impl</span> SomeTrait <span class="hljs-keyword">for</span> Unit {  }
+<span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">main</span></span>() {
+    <span class="hljs-keyword">let</span> u = Unit;
+    do_something_with_unit(u);
+
+    <span class="hljs-built_in">println!</span>(<span class="hljs-string">"Success!"</span>);
+} 
+
+<span class="hljs-comment">// Fill the blank to make the code work</span>
+<span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">do_something_with_unit</span></span>(u: __) {   }
+</div></code></pre>
+<p>In the provided code, you have defined a unit struct <code>Unit</code> which doesn't contain any fields. You have also created a trait <code>SomeTrait</code> and implemented it for <code>Unit</code>. In the <code>main</code> function, an instance of <code>Unit</code> is created and passed to the function <code>do_something_with_unit</code>. However, the function signature for <code>do_something_with_unit</code> is missing a type for the parameter <code>u</code>.</p>
+<p><strong>Answer:</strong></p>
+<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Unit</span></span>;
+<span class="hljs-class"><span class="hljs-keyword">trait</span> <span class="hljs-title">SomeTrait</span></span> {
+    <span class="hljs-comment">// ...Some behaviors defined here.</span>
+}
+
+<span class="hljs-comment">// We don't care about what fields  are  in the Unit, but we care about its behaviors.</span>
+<span class="hljs-comment">// So we use a struct with no fields and implement some behaviors for it</span>
+<span class="hljs-keyword">impl</span> SomeTrait <span class="hljs-keyword">for</span> Unit {  }
+<span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">main</span></span>() {
+    <span class="hljs-keyword">let</span> u = Unit;
+    do_something_with_unit(u);
+
+    <span class="hljs-built_in">println!</span>(<span class="hljs-string">"Success!"</span>);
+} 
+
+<span class="hljs-comment">// Fill the blank to make the code work</span>
+<span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">do_something_with_unit</span></span>(u: Unit) {   }
+</div></code></pre>
+<p>In the corrected code, <code>Unit</code> is the type of the parameter <code>u</code> for the function <code>do_something_with_unit</code>. Since the function is supposed to take an instance of <code>Unit</code>, the type of <code>u</code> should be <code>Unit</code>.</p>
+<hr>
+<ol start="3">
+<li>🌟🌟🌟 Tuple struct looks similar to tuples, it has added meaning the struct name provides but has no named fields. It's useful when you want to give the whole tuple a name, but don't care about the fields's names.</li>
+</ol>
+<p><strong>Question:</strong></p>
+<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Color</span></span>(<span class="hljs-built_in">i32</span>, <span class="hljs-built_in">i32</span>, <span class="hljs-built_in">i32</span>);
+<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Point</span></span>(<span class="hljs-built_in">i32</span>, <span class="hljs-built_in">i32</span>, <span class="hljs-built_in">i32</span>);
+<span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">main</span></span>() {
+    <span class="hljs-keyword">let</span> v = Point(__, __, __);
+    check_color(v);
+
+    <span class="hljs-built_in">println!</span>(<span class="hljs-string">"Success!"</span>);
+}   
+
+<span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">check_color</span></span>(p: Color) {
+    <span class="hljs-keyword">let</span> (x, _, _) = p;
+    <span class="hljs-built_in">assert_eq!</span>(x, <span class="hljs-number">0</span>);
+    <span class="hljs-built_in">assert_eq!</span>(p.<span class="hljs-number">1</span>, <span class="hljs-number">127</span>);
+    <span class="hljs-built_in">assert_eq!</span>(__, <span class="hljs-number">255</span>);
+ }
+</div></code></pre>
+<p>The provided code shows two struct types, <code>Color</code> and <code>Point</code>, which are tuple structs containing three <code>i32</code> values each. Tuple structs are useful when you want to give a name to a structure but don't need to name each field separately. The <code>main</code> function creates an instance of <code>Point</code> and then attempts to pass this instance to the <code>check_color</code> function, which is expecting an instance of <code>Color</code>. This will cause a type mismatch error. Also, there are a few placeholders that need to be filled in to complete the code.</p>
+<p><strong>Answer:</strong></p>
+<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Color</span></span>(<span class="hljs-built_in">i32</span>, <span class="hljs-built_in">i32</span>, <span class="hljs-built_in">i32</span>);
+<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Point</span></span>(<span class="hljs-built_in">i32</span>, <span class="hljs-built_in">i32</span>, <span class="hljs-built_in">i32</span>);
+<span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">main</span></span>() {
+    <span class="hljs-keyword">let</span> v = Color(<span class="hljs-number">0</span>, <span class="hljs-number">127</span>, <span class="hljs-number">255</span>);
+    check_color(v);
+
+    <span class="hljs-built_in">println!</span>(<span class="hljs-string">"Success!"</span>);
+}   
+
+<span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">check_color</span></span>(p: Color) {
+    <span class="hljs-keyword">let</span> (x, _, z) = p;
+    <span class="hljs-built_in">assert_eq!</span>(x, <span class="hljs-number">0</span>);
+    <span class="hljs-built_in">assert_eq!</span>(p.<span class="hljs-number">1</span>, <span class="hljs-number">127</span>);
+    <span class="hljs-built_in">assert_eq!</span>(z, <span class="hljs-number">255</span>);
+ }
+</div></code></pre>
+<p>In the corrected code, the instance of <code>Color</code> struct is passed to the <code>check_color</code> function instead of the <code>Point</code> struct. This aligns with the expected parameter type of <code>Color</code> for the function <code>check_color</code>. Also, the tuple destructuring in <code>check_color</code> is updated to get the third value of the struct (the blue component of the color) into variable <code>z</code>, which is then used in the last assertion.</p>
+<hr>
+<h3 id="operating-on-structs"><a href="https://practice.rs/compound-types/struct.html#operating-on-structs">Operating on structs</a></h3>
+<ol start="4">
+<li>🌟 You can make a whole struct mutable when instantiating it, but Rust doesn't allow us to mark only certain fields as mutable.
+<strong>Question:</strong></li>
+</ol>
+<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Person</span></span> {
+    name: <span class="hljs-built_in">String</span>,
+    age: <span class="hljs-built_in">u8</span>,
+}
+<span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">main</span></span>() {
+    <span class="hljs-keyword">let</span> age = <span class="hljs-number">18</span>;
+    <span class="hljs-keyword">let</span> p = Person {
+        name: <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"sunface"</span>),
+        age,
+    };
+
+    p.age = <span class="hljs-number">30</span>;
+
+    __ = <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"sunfei"</span>);
+
+    <span class="hljs-built_in">println!</span>(<span class="hljs-string">"Success!"</span>);
+}
+</div></code></pre>
+<p>The code given above defines a struct <code>Person</code> with two fields, <code>name</code> and <code>age</code>. In the <code>main</code> function, an instance of <code>Person</code> named <code>p</code> is created. Then, an attempt is made to modify the <code>age</code> field of <code>p</code>, which leads to an error because <code>p</code> is immutable by default. Furthermore, there is a placeholder to be filled.</p>
+<p><strong>Answer:</strong></p>
+<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Person</span></span> {
+    name: <span class="hljs-built_in">String</span>,
+    age: <span class="hljs-built_in">u8</span>,
+}
+<span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">main</span></span>() {
+    <span class="hljs-keyword">let</span> age = <span class="hljs-number">18</span>;
+    <span class="hljs-keyword">let</span> <span class="hljs-keyword">mut</span> p = Person {
+        name: <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"sunface"</span>),
+        age,
+    };
+
+    p.age = <span class="hljs-number">30</span>;
+
+    p.name = <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"sunfei"</span>);
+
+    <span class="hljs-built_in">println!</span>(<span class="hljs-string">"Success!"</span>);
+}
+</div></code></pre>
+<p>In the corrected code, <code>p</code> is declared as mutable with <code>let mut</code> so that its fields can be changed later. The <code>age</code> field of <code>p</code> is updated to 30. Then, the placeholder is replaced by <code>p.name</code>, assigning a new string &quot;sunfei&quot; to the <code>name</code> field of <code>p</code>.</p>
+<hr>
+<ol start="5">
+<li>🌟 Using <em>field init shorthand syntax</em> to reduce repetitions</li>
+</ol>
+<p><strong>Question:</strong></p>
+<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Person</span></span> {
+    name: <span class="hljs-built_in">String</span>,
+    age: <span class="hljs-built_in">u8</span>,
+}
+<span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">main</span></span>() {
+    <span class="hljs-keyword">let</span> age = <span class="hljs-number">18</span>;
+    <span class="hljs-keyword">let</span> p = Person {
+        name: <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"sunface"</span>),
+        age,
+    };
+
+    p.age = <span class="hljs-number">30</span>;
+
+    __ = <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"sunfei"</span>);
+
+    <span class="hljs-built_in">println!</span>(<span class="hljs-string">"Success!"</span>);
+}
+</div></code></pre>
+<p>The code given above defines a struct <code>Person</code> with two fields, <code>name</code> and <code>age</code>. In the <code>main</code> function, an instance of <code>Person</code> named <code>p</code> is created. Then, an attempt is made to modify the <code>age</code> field of <code>p</code>, which leads to an error because <code>p</code> is immutable by default. Furthermore, there is a placeholder to be filled.</p>
+<p><strong>Answer:</strong></p>
+<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Person</span></span> {
+    name: <span class="hljs-built_in">String</span>,
+    age: <span class="hljs-built_in">u8</span>,
+}
+<span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">main</span></span>() {
+    <span class="hljs-keyword">let</span> age = <span class="hljs-number">18</span>;
+    <span class="hljs-keyword">let</span> <span class="hljs-keyword">mut</span> p = Person {
+        name: <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"sunface"</span>),
+        age,
+    };
+
+    p.age = <span class="hljs-number">30</span>;
+
+    p.name = <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"sunfei"</span>);
+
+    <span class="hljs-built_in">println!</span>(<span class="hljs-string">"Success!"</span>);
+}
+</div></code></pre>
+<p>In the corrected code, <code>p</code> is declared as mutable with <code>let mut</code> so that its fields can be changed later. The <code>age</code> field of <code>p</code> is updated to 30. Then, the placeholder is replaced by <code>p.name</code>, assigning a new string &quot;sunfei&quot; to the <code>name</code> field of <code>p</code>.</p>
+<hr>
+<ol start="6">
+<li>
+<p>🌟 You can create instance from other instance with <em>struct update syntax</em></p>
+<p><strong>Question:</strong></p>
+</li>
+</ol>
+<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">User</span></span> {
+    active: <span class="hljs-built_in">bool</span>,
+    username: <span class="hljs-built_in">String</span>,
+    email: <span class="hljs-built_in">String</span>,
+    sign_in_count: <span class="hljs-built_in">u64</span>,
+}
+<span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">main</span></span>() {
+    <span class="hljs-keyword">let</span> u1 = User {
+        email: <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"someone@example.com"</span>),
+        username: <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"sunface"</span>),
+        active: <span class="hljs-literal">true</span>,
+        sign_in_count: <span class="hljs-number">1</span>,
+    };
+
+    <span class="hljs-keyword">let</span> u2 = set_email(u1);
+
+    <span class="hljs-built_in">println!</span>(<span class="hljs-string">"Success!"</span>);
+} 
+
+<span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">set_email</span></span>(u: User) -&gt; User {
+    User {
+        email: <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"contact@im.dev"</span>),
+        __
+    }
+}
+</div></code></pre>
+<p>In the code snippet above, there is a struct <code>User</code> with 4 fields. In the <code>main</code> function, an instance <code>u1</code> of <code>User</code> is created. Then, <code>set_email</code> function is called with <code>u1</code> as an argument. The <code>set_email</code> function is intended to create a new <code>User</code> instance, changing only the email field, while the rest of the fields are to be copied from the passed instance. There is a placeholder for this operation in the code.</p>
+<p><strong>Answer:</strong></p>
+<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">User</span></span> {
+    active: <span class="hljs-built_in">bool</span>,
+    username: <span class="hljs-built_in">String</span>,
+    email: <span class="hljs-built_in">String</span>,
+    sign_in_count: <span class="hljs-built_in">u64</span>,
+}
+<span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">main</span></span>() {
+    <span class="hljs-keyword">let</span> u1 = User {
+        email: <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"someone@example.com"</span>),
+        username: <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"sunface"</span>),
+        active: <span class="hljs-literal">true</span>,
+        sign_in_count: <span class="hljs-number">1</span>,
+    };
+
+    <span class="hljs-keyword">let</span> u2 = set_email(u1);
+
+    <span class="hljs-built_in">println!</span>(<span class="hljs-string">"Success!"</span>);
+} 
+
+<span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">set_email</span></span>(u: User) -&gt; User {
+    User {
+        email: <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"contact@im.dev"</span>),
+        ..u
+    }
+}
+</div></code></pre>
+<p>In the <code>set_email</code> function, the struct update syntax <code>..u</code> is used to fill the rest of the fields from <code>u</code>. This syntax allows us to create a new instance of a struct, where some fields get new values, and the remaining fields are filled with the values from another instance. It is useful when you need to create a new instance that is mostly similar to an existing one, but some fields need to be different.---</p>
+<h3 id="print-the-structs"><a href="https://practice.rs/compound-types/struct.html#print-the-structs">Print the structs</a></h3>
+<ol start="7">
+<li>🌟🌟 We can use <code>#[derive(Debug)]</code> to <a href="https://doc.rust-lang.org/book/ch05-02-example-structs.html?highlight=%23%5Bderive(Debug)%5D#adding-useful-functionality-with-derived-traits">make a struct printable</a>.
+<strong>Question:</strong></li>
+</ol>
+<pre class="hljs"><code><div><span class="hljs-meta">#[__]</span>
+<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Rectangle</span></span> {
+    width: <span class="hljs-built_in">u32</span>,
+    height: <span class="hljs-built_in">u32</span>,
+}
+
+<span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">main</span></span>() {
+    <span class="hljs-keyword">let</span> scale = <span class="hljs-number">2</span>;
+    <span class="hljs-keyword">let</span> rect1 = Rectangle {
+        width: dbg!(<span class="hljs-number">30</span> * scale), <span class="hljs-comment">// Print debug info to stderr and assign the value of  `30 * scale` to `width`</span>
+        height: <span class="hljs-number">50</span>,
+    };
+
+    dbg!(&amp;rect1); <span class="hljs-comment">// Print debug info to stderr</span>
+
+    <span class="hljs-built_in">println!</span>(__, rect1); <span class="hljs-comment">// Print debug info to stdout</span>
+}
+</div></code></pre>
+<p>In the code snippet above, we have a struct <code>Rectangle</code> that we want to be able to print for debugging purposes. We also have a <code>main</code> function in which we instantiate a <code>Rectangle</code>, print it using <code>dbg!</code> macro, and want to print it using <code>println!</code> macro. There are placeholders in the code for making the struct printable and for the format string needed for <code>println!</code>.</p>
+<p><strong>Answer:</strong></p>
+<pre class="hljs"><code><div><span class="hljs-meta">#[derive(Debug)]</span>
+<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Rectangle</span></span> {
+    width: <span class="hljs-built_in">u32</span>,
+    height: <span class="hljs-built_in">u32</span>,
+}
+
+<span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">main</span></span>() {
+    <span class="hljs-keyword">let</span> scale = <span class="hljs-number">2</span>;
+    <span class="hljs-keyword">let</span> rect1 = Rectangle {
+        width: dbg!(<span class="hljs-number">30</span> * scale), <span class="hljs-comment">// Print debug info to stderr and assign the value of  `30 * scale` to `width`</span>
+        height: <span class="hljs-number">50</span>,
+    };
+
+    dbg!(&amp;rect1); <span class="hljs-comment">// Print debug info to stderr</span>
+
+    <span class="hljs-built_in">println!</span>(<span class="hljs-string">"{:?}"</span>, rect1); <span class="hljs-comment">// Print debug info to stdout</span>
+}
+</div></code></pre>
+<p>In order to make the <code>Rectangle</code> struct printable for debugging purposes, we use the <code>#[derive(Debug)]</code> attribute before the struct definition. This enables the struct to be formatted using the <code>{}</code> or <code>{:?}</code> format strings, the latter of which is used for pretty-printing.</p>
+<p>In the <code>println!</code> macro, <code>{:?}</code> is used as the format string to print the <code>rect1</code> instance. This is a placeholder that will be replaced by the Debug representation of <code>rect1</code>. The Debug formatting uses the <code>fmt::Debug</code> trait, and <code>{:?}</code> tells Rust to use the output designed for debugging. Note that not every type can be printed this way; only types which have implemented the <code>fmt::Debug</code> trait (either manually or via <code>#[derive(Debug)]</code>) can be.</p>
+<hr>
+<h3 id="partial-move"><a href="https://practice.rs/compound-types/struct.html#partial-move">Partial move</a></h3>
+<p>Within the destructuring of a single variable, both by-move and by-reference pattern bindings can be used at the same time. Doing this will result in a partial move of the variable, which means that parts of the variable will be moved while other parts stay. In such a case, the parent variable cannot be used</p>
+<p><strong>Question:</strong></p>
+<pre class="hljs"><code><div><span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">main</span></span>() {
+    <span class="hljs-meta">#[derive(Debug)]</span>
+    <span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Person</span></span> {
+        name: <span class="hljs-built_in">String</span>,
+        age: <span class="hljs-built_in">Box</span>&lt;<span class="hljs-built_in">u8</span>&gt;,
+    }
+
+    <span class="hljs-keyword">let</span> person = Person {
+        name: <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"Alice"</span>),
+        age: <span class="hljs-built_in">Box</span>::new(<span class="hljs-number">20</span>),
+    };
+
+    <span class="hljs-comment">// `name` is moved out of person, but `age` is referenced</span>
+    <span class="hljs-keyword">let</span> Person { name, <span class="hljs-keyword">ref</span> age } = person;
+
+    <span class="hljs-built_in">println!</span>(<span class="hljs-string">"The person's age is {}"</span>, age);
+
+    <span class="hljs-built_in">println!</span>(<span class="hljs-string">"The person's name is {}"</span>, name);
+
+    <span class="hljs-comment">// Error! borrow of partially moved value: `person` partial move occurs</span>
+    <span class="hljs-comment">//println!("The person struct is {:?}", person);</span>
+
+    <span class="hljs-comment">// `person` cannot be used but `person.age` can be used as it is not moved</span>
+    <span class="hljs-built_in">println!</span>(<span class="hljs-string">"The person's age from person struct is {}"</span>, person.age);
+}
+</div></code></pre>
+<p>In the code snippet above, we have a struct <code>Person</code> and an instance of it named <code>person</code>. Then, we perform a partial move by destructuring <code>person</code> such that <code>name</code> is moved out and <code>age</code> is only referenced. We try to use <code>age</code> and <code>name</code> after the partial move, but also try to use <code>person</code> itself, which is expected to result in an error. Lastly, we want to demonstrate that we can still use <code>age</code> directly from <code>person</code> even after the partial move.</p>
+<p><strong>Answer:</strong></p>
+<p>Actually, the code snippet will fail to compile, and the last line is the reason. The error message will be something like <code>value used here after move</code>, indicating that <code>person</code> was moved due to the destructuring operation on the previous lines.</p>
+<p>Here's a corrected version:</p>
+<pre class="hljs"><code><div><span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">main</span></span>() {
+    <span class="hljs-meta">#[derive(Debug)]</span>
+    <span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Person</span></span> {
+        name: <span class="hljs-built_in">String</span>,
+        age: <span class="hljs-built_in">Box</span>&lt;<span class="hljs-built_in">u8</span>&gt;,
+    }
+
+    <span class="hljs-keyword">let</span> <span class="hljs-keyword">mut</span> person = Person {
+        name: <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"Alice"</span>),
+        age: <span class="hljs-built_in">Box</span>::new(<span class="hljs-number">20</span>),
+    };
+
+    <span class="hljs-comment">// `name` is moved out of person, but `age` is referenced</span>
+    <span class="hljs-keyword">let</span> Person { name, <span class="hljs-keyword">ref</span> age } = person;
+
+    <span class="hljs-built_in">println!</span>(<span class="hljs-string">"The person's age is {}"</span>, age);
+
+    <span class="hljs-built_in">println!</span>(<span class="hljs-string">"The person's name is {}"</span>, name);
+
+    <span class="hljs-comment">// This is not allowed because `name` was moved out of `person`</span>
+    <span class="hljs-comment">//println!("The person struct is {:?}", person);</span>
+
+    <span class="hljs-comment">// `person.name` cannot be used because it was moved</span>
+    <span class="hljs-comment">// but `person.age` can be used as it is not moved</span>
+    <span class="hljs-comment">// To ensure that `person` is still partially usable, we do not move `name` out of it</span>
+    person.name = <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"Alice"</span>);
+    <span class="hljs-built_in">println!</span>(<span class="hljs-string">"The person's age from person struct is {}"</span>, person.age);
+}
+</div></code></pre>
+<p>In the corrected version, <code>person.name</code> is moved back into <code>person</code> before the last <code>println!</code> statement, allowing for <code>person.age</code> to be accessed without causing a compiler error. Keep in mind that this is a workaround and it may not be applicable in all situations, especially if the moved value cannot easily be recreated or if the partial move was not intended. In general, it's good practice to avoid partial moves unless necessary.</p>
+<hr>
+<p><strong>Question:</strong></p>
+<pre class="hljs"><code><div><span class="hljs-meta">#[derive(Debug)]</span>
+<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">File</span></span> {
+    name: <span class="hljs-built_in">String</span>,
+    data: <span class="hljs-built_in">String</span>,
+}
+<span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">main</span></span>() {
+    <span class="hljs-keyword">let</span> f = File {
+        name: <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"readme.md"</span>),
+        data: <span class="hljs-string">"Rust By Practice"</span>.to_string()
+    };
+
+    <span class="hljs-keyword">let</span> _name = f.name;
+
+    <span class="hljs-comment">// ONLY modify this line</span>
+    <span class="hljs-built_in">println!</span>(<span class="hljs-string">"{}, {}, {:?}"</span>,f.name, f.data, f);
+}
+</div></code></pre>
+<p>In the provided code, we define a <code>File</code> struct with a <code>name</code> and <code>data</code> field. In <code>main</code>, we create an instance of <code>File</code> and assign the <code>name</code> field to a variable <code>_name</code>. This operation moves <code>name</code> out of <code>f</code>. Then we try to print out <code>f.name</code>, <code>f.data</code>, and <code>f</code> itself, which would result in an error as <code>f.name</code> has been moved.</p>
+<p><strong>Answer:</strong></p>
+<p>To fix the error, we need to use a reference when we extract <code>f.name</code>, preventing the value from being moved out. However, as per the instructions, we should only modify the <code>println!</code> line. Here's the corrected version:</p>
+<pre class="hljs"><code><div><span class="hljs-meta">#[derive(Debug)]</span>
+<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">File</span></span> {
+    name: <span class="hljs-built_in">String</span>,
+    data: <span class="hljs-built_in">String</span>,
+}
+<span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">main</span></span>() {
+    <span class="hljs-keyword">let</span> f = File {
+        name: <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"readme.md"</span>),
+        data: <span class="hljs-string">"Rust By Practice"</span>.to_string()
+    };
+
+    <span class="hljs-keyword">let</span> _name = f.name;
+
+    <span class="hljs-comment">// ONLY modify this line</span>
+    <span class="hljs-built_in">println!</span>(<span class="hljs-string">"{:?}, {}"</span>, f, f.data);
+}
+</div></code></pre>
+<p>In this version, instead of printing <code>f.name</code>, we're printing the whole <code>f</code> which is allowed since the entire <code>f</code> hasn't been moved (only the <code>name</code> field has been). In the output, you'll see the full <code>File</code> struct printout before the <code>data</code> field. Note that the <code>name</code> field in the <code>File</code> struct printout will be absent as it has been moved out. This adheres to the task's constraints (only modify the <code>println!</code> line), but be aware that this is a workaround and it might not suit every scenario. In practice, you might want to avoid moving out data that you still need to use.</p>
+<hr>
+<p>Structs in Rust are a way of creating complex data types, similar to objects in other programming languages. They're used to structure related data into a cohesive entity.</p>
+<ol>
+<li>
+<p><strong>Defining and Instantiating Structs</strong>: You can define a struct with the <code>struct</code> keyword followed by the name, and within curly braces <code>{}</code>, you define the fields with their respective types. Fields are separated by commas. To create an instance of a struct, you use the struct name followed by the values of the fields in curly braces. The values must be in the same order as the fields in the struct definition.</p>
+<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Person</span></span> {
+    name: <span class="hljs-built_in">String</span>,
+    age: <span class="hljs-built_in">u8</span>,
+}
+
+<span class="hljs-keyword">let</span> p = Person {
+    name: <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"Alice"</span>),
+    age: <span class="hljs-number">30</span>,
+};
+</div></code></pre>
+</li>
+<li>
+<p><strong>Accessing and Modifying Fields</strong>: To access or modify a field, use dot notation. If you want to change a field's value, the instance must be mutable.</p>
+<pre class="hljs"><code><div><span class="hljs-keyword">let</span> p = Person {
+    name: <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"Alice"</span>),
+    age: <span class="hljs-number">30</span>,
+};
+<span class="hljs-built_in">println!</span>(<span class="hljs-string">"{}"</span>, p.name); <span class="hljs-comment">// Accessing field</span>
+
+<span class="hljs-keyword">let</span> <span class="hljs-keyword">mut</span> p = Person {
+    name: <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"Alice"</span>),
+    age: <span class="hljs-number">30</span>,
+};
+p.age = <span class="hljs-number">31</span>; <span class="hljs-comment">// Modifying field</span>
+</div></code></pre>
+</li>
+<li>
+<p><strong>Tuple Structs</strong>: A tuple struct is similar to a tuple, but it allows you to name the tuple. It can be useful when you want to distinguish a tuple from other tuples, but don't need named fields.</p>
+<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Color</span></span>(<span class="hljs-built_in">i32</span>, <span class="hljs-built_in">i32</span>, <span class="hljs-built_in">i32</span>);
+<span class="hljs-keyword">let</span> white = Color(<span class="hljs-number">255</span>, <span class="hljs-number">255</span>, <span class="hljs-number">255</span>);
+</div></code></pre>
+</li>
+<li>
+<p><strong>Unit Structs</strong>: Unit structs do not have any fields and are useful when you want to implement a trait for a type without storing additional data.</p>
+<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Unit</span></span>;
+</div></code></pre>
+</li>
+<li>
+<p><strong>Struct Update Syntax</strong>: When creating a new instance of a struct, you can use the struct update syntax <code>..</code> to use the rest of the values from another instance of the same struct.</p>
+<pre class="hljs"><code><div><span class="hljs-keyword">let</span> user1 = User { email: <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"hello@example.com"</span>), username: <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"user1"</span>), active: <span class="hljs-literal">true</span>, sign_in_count: <span class="hljs-number">1</span>};
+<span class="hljs-keyword">let</span> user2 = User { email: <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"world@example.com"</span>), ..user1 };
+</div></code></pre>
+</li>
+<li>
+<p><strong>Ownership and Structs</strong>: When a struct is moved or assigned to another variable, all its field values are moved or copied depending on their types. In the case where one field of a struct has been moved, you won't be able to use the entire struct afterwards as it has been partially moved.</p>
+</li>
+<li>
+<p><strong>Debug Print</strong>: The <code>Debug</code> trait enables printing instances of the struct in a debug-friendly format. Deriving <code>Debug</code> trait and using <code>println!(&quot;{:?}&quot;, instance)</code> can help in debugging your structs.</p>
+<pre class="hljs"><code><div><span class="hljs-meta">#[derive(Debug)]</span>
+<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Person</span></span> {
+    name: <span class="hljs-built_in">String</span>,
+    age: <span class="hljs-built_in">u8</span>,
+}
+
+<span class="hljs-keyword">let</span> p = Person {
+    name: <span class="hljs-built_in">String</span>::from(<span class="hljs-string">"Alice"</span>),
+    age: <span class="hljs-number">30</span>,
+};
+<span class="hljs-built_in">println!</span>(<span class="hljs-string">"{:?}"</span>, p);
+</div></code></pre>
+</li>
+<li>
+<p><strong>Methods and Associated Functions</strong>: Structs can also have methods defined with the <code>impl</code> keyword. Methods take a reference to the instance of the struct as the first parameter, which can be named <code>self</code>, <code>&amp;self</code>, or <code>&amp;mut self</code> depending on the use case. If you have a function that does not take an instance of the struct as a parameter, it's called an associated function and is defined in the same <code>impl</code> block.</p>
+<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Person</span></span> {
+    name: <span class="hljs-built_in">String</span>,
+    age: <span class="hljs-built_in">u8</span>,
+}
+
+<span class="hljs-keyword">impl</span> Person {
+    <span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">greet</span></span>(&amp;<span class="hljs-keyword">self</span>) {
+        <span class="hljs-built_in">println!</span>(<span class="hljs-string">"Hello, {}"</span>, <span class="hljs-keyword">self</span>.name);
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">fn</span> <span class="hljs-title">new</span></span>(name: <span class="hljs-built_in">String</span>, age: <span class="hljs-built_in">u8</span>) -&gt; Person {
+        Person { name, age }
+    }
+}
+</div></code></pre>
+</li>
+</ol>
+<p>These are the basics of structs in Rust. It's also worth mentioning that Rust has an advanced feature called &quot;lifetimes&quot; that are used to ensure reference safety when working with structures. Lifetimes are an advanced topic that's beyond this summary, but they're a critical part of working with structs (and Rust in general) at a high level.</p>
+
+</body>
+</html>

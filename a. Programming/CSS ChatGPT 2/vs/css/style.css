@@ -1,0 +1,225 @@
+/* Optional: Include a CSS Reset or Normalize at the top */
+/* @import url("normalize.css"); */
+
+/* --- Base Styles (Mobile First) --- */
+
+:root {
+  /* Define CSS variables for common values */
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --text-color: #333;
+  --background-color: #fff;
+  --container-padding: 15px;
+  --max-width-desktop: 1200px;
+  --spacing-small: 10px;
+  --spacing-medium: 20px;
+  --spacing-large: 40px;
+}
+
+:where *, *::before, *::after {
+  box-sizing: border-box; /* Include padding and border in element's total width/height */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Common system font stack */
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+/* Basic Typography */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: var(--spacing-small);
+  line-height: 1.2;
+}
+
+p {
+  margin-bottom: var(--spacing-medium);
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  display: inline-block;
+  padding: var(--spacing-small) var(--spacing-medium);
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: darken(var(--primary-color), 10%); /* Requires a preprocessor or manual darker color */
+}
+
+
+/* Container for centering and padding */
+.container {
+  width: 100%;
+  padding: 0 var(--container-padding); /* Mobile gutters */
+  margin: 0 auto; /* Center the container */
+  /* max-width will be set in the desktop media query */
+}
+
+/* Header Styles (Mobile) */
+header {
+  background-color: #f8f9fa; /* Light background */
+  padding: var(--spacing-small) 0; /* Padding top/bottom */
+  text-align: center; /* Center contents by default */
+  border-bottom: 1px solid #e9ecef;
+}
+
+.site-title h1 {
+  font-size: 1.5rem;
+  margin-bottom: var(--spacing-small);
+}
+
+.site-title a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin-bottom: var(--spacing-small); /* Stack navigation links */
+}
+
+nav a {
+  display: block; /* Make links full width for easier tapping */
+  padding: var(--spacing-small);
+  color: var(--text-color);
+}
+
+nav a:hover {
+  background-color: #e9ecef;
+  text-decoration: none;
+}
+
+
+/* Main Content Styles (Mobile) */
+main .container {
+  padding-top: var(--spacing-medium);
+  padding-bottom: var(--spacing-medium);
+}
+
+main section {
+  margin-bottom: var(--spacing-large); /* Space between sections */
+  padding: var(--spacing-medium) 0; /* Add some vertical padding to sections */
+  /* Consider adding a background or border for visual separation if needed */
+}
+
+/* Example styles for features section items */
+.features .feature-item {
+  background-color: #e9ecef;
+  padding: var(--spacing-small);
+  margin-bottom: var(--spacing-small); /* Stack feature items */
+  text-align: center;
+  border-radius: 5px;
+}
+
+
+/* Footer Styles (Mobile) */
+footer {
+  background-color: #343a40; /* Dark background */
+  color: #e9ecef;
+  padding: var(--spacing-medium) 0; /* Padding top/bottom */
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #e9ecef;
+}
+
+
+/* --- Desktop Styles (using min-width media query) --- */
+
+@media (min-width: 768px) { /* Adjust breakpoint as needed (e.g., 992px, 1200px) */
+
+  /* Container: Apply max-width for centering on large screens */
+  .container {
+      max-width: var(--max-width-desktop);
+      padding: 0 var(--spacing-medium); /* Adjust horizontal padding */
+  }
+
+  /* Header Styles (Desktop) */
+  header .container {
+      display: flex; /* Use flexbox for horizontal layout */
+      justify-content: space-between; /* Space between title and nav */
+      align-items: center; /* Vertically align items */
+  }
+
+   .site-title h1 {
+      margin-bottom: 0; /* Remove margin when vertically centered */
+   }
+
+  nav ul {
+      display: flex; /* Use flexbox for horizontal nav links */
+  }
+
+  nav li {
+      margin-bottom: 0; /* Remove stacking margin */
+      margin-left: var(--spacing-medium); /* Space between horizontal links */
+  }
+
+  nav a {
+      display: inline-block; /* Revert display for horizontal links */
+      padding: var(--spacing-small) var(--spacing-small); /* Adjust padding */
+  }
+
+  /* Main Content Styles (Desktop) */
+  main .container {
+      padding-top: var(--spacing-large);
+      padding-bottom: var(--spacing-large);
+  }
+
+  /* Example: Change features section to a 3-column grid on desktop */
+  .features {
+      /* Add Grid display to the section */
+      display: grid;
+      /* Define columns: repeat (auto-fit or auto-fill) creates responsive columns */
+      /* minmax sets minimum item width (e.g., 200px) and allows items to grow (1fr) */
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: var(--spacing-medium); /* Space between grid items */
+  }
+
+  .features .feature-item {
+      margin-bottom: 0; /* Remove stacking margin when in a grid */
+      padding: var(--spacing-medium); /* Adjust padding for larger items */
+  }
+
+  /* Footer Styles (Desktop) */
+   footer {
+      /* Often no major layout changes needed, centering is handled by container */
+   }
+
+}
+
+/* --- Optional: Even Larger Screen Styles (Example) --- */
+/* Use another media query for very large desktops if needed */
+
+@media (min-width: 1200px) {
+  .container {
+      max-width: 1400px; /* Even wider container */
+  }
+
+  /* Further layout adjustments for very large screens */
+}

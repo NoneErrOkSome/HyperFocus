@@ -1,0 +1,1 @@
+Please provide a detailed explanation of all key points. Use the instructor's original words as much as possible and expand upon them for additional clarity. Include any relevant details entirely based on his words, and incorporate all phrasal verbs mentioned in the most recent answer.

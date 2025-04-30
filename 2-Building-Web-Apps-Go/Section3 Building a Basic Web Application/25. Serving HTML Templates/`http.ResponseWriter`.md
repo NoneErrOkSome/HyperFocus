@@ -1,0 +1,3 @@
+Yes, you can think of `http.ResponseWriter` as **"responseBack"** since it is responsible for **sending the response back** to the client. It allows you to write data (HTML, JSON, etc.) that will be sent as the HTTP response when the client makes a request to your server.
+
+This mental model can help you remember that `http.ResponseWriter` is used to "respond back" to the client's request with the appropriate content.

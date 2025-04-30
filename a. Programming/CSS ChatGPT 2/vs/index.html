@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Site Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="site-title">
+                <a href="#">
+                    <h1>Site Name</h1>
+                </a>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="hero">
+                <h2>Hero Section</h2>
+                <p>This is the main introductory section of your page. Add a compelling headline and brief description
+                    here.</p>
+                <button>Call to Action</button>
+            </section>
+
+            <section class="features">
+                <h2>Features Section</h2>
+                <p>Describe key features or services here. You can add multiple content blocks within this section.</p>
+                <div class="feature-item">Feature 1</div>
+                <div class="feature-item">Feature 2</div>
+                <div class="feature-item">Feature 3</div>
+            </section>
+
+            <section class="about">
+                <h2>About Us</h2>
+                <p>Tell visitors about your company or purpose.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Your Company Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+
+</html>
