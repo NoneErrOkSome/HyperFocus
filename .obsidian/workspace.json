@@ -11,10 +11,14 @@
             "id": "06a1ced7a5d6e2bb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "a. Programming/a. TypeScript/1. Beginner Fundamentals/1. Basic Types Breakdown/3. Boolean Type/3. Boolean type.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "3. Boolean type"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "a. Udemy/YouTube/HTML/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "a. Udemy/YouTube/HTML/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -136,19 +142,36 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "a. Udemy/YouTube/HTML/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Untitled"
+            }
+          },
+          {
+            "id": "563cf569baf12e81",
+            "type": "leaf",
+            "state": {
+              "type": "playground-view",
+              "state": {
+                "openInPopout": false,
+                "id": "e1e9975b-7c94-4a2a-84ad-0943c26399d0",
+                "input": "",
+                "answer": "hi"
+              },
+              "icon": "lucide-file",
+              "title": "Template Playground"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 686.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -158,9 +181,51 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
   "active": "06a1ced7a5d6e2bb",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "a. Programming/a. TypeScript/1. Beginner Fundamentals/1. Basic Types Breakdown/2. String Type/2. String type.md",
+    "a. Programming/a. TypeScript/1. Beginner Fundamentals/1. Basic Types Breakdown/3. Boolean Type/3. Boolean type.md",
+    "a. Programming/a. TypeScript/1. Beginner Fundamentals/1. Basic Types Breakdown/1. Number Type/1. Number Type.md",
+    "a. Udemy/YouTube/CSS/Untitled.md",
+    "Japanese Language/Hiragana.md",
+    "Japanese Language/Katakana.md",
+    "Japanese Language/Hiragana & Katakana.md",
+    "English Vocabularies/Vocab.md",
+    "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/1.Array & Hashing/1. Easy/2.  Valid Anagram 0.md",
+    "English Vocabularies",
+    "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/1.Array & Hashing/3. Hard/26. First Missing Positive.md",
+    "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/1.Array & Hashing/1. Easy/1. Contain Duplicate 2.md",
+    "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/0. Roadmap/0. Roadmap.canvas",
+    "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/1.Array & Hashing/1. Easy/1. Contain Duplicate 1.md",
+    "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/1.Array & Hashing/1. Easy/1. Contain Duplicate 0.md",
+    "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/1.Array & Hashing/1. Easy/2. Valid Anagram 1.md",
+    "a. Udemy/Krista King/0. Prompt.md",
+    "textgenerator/templates/default/getEmailPos.md",
+    "textgenerator/templates/default/getEmailNeg.md",
+    "textgenerator/templates/default/summarize.md",
+    "textgenerator/templates/default/summarizeLarge.md",
+    "textgenerator/templates/default/rewrite.md",
+    "a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 3 Data Type/8. Variables/3.md",
+    "a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 3 Data Type/8. Variables/2.md",
+    "a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 3 Data Type/8. Variables/1.md",
+    "a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 3 Data Type/8. Variables/0.1 Variable.md",
+    "a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 3 Data Type/8. Variables/0.md",
+    "a. Udemy/Krista King/Untitled.md",
+    "Prompt",
+    "textgenerator/templates/default",
+    "textgenerator/templates",
+    "textgenerator",
+    "a. Udemy/YouTube/CSS/CSS Grid",
+    "a. Udemy/Jonas Schmedtmann/all-design-guidelines.pdf",
+    "a. Udemy/Jonas Schmedtmann/Build Responsive Real-World Websites with HTML and CSS/Section 7 Omnifood/100. The 7 Steps to a Great Website",
+    "a. Udemy/Jonas Schmedtmann/Build Responsive Real-World Websites with HTML and CSS/Section 7 Omnifood",
+    "a. Udemy/YouTube/HTML"
+  ]
 }

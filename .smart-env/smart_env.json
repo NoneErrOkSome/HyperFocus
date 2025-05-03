@@ -1,0 +1,379 @@
+{
+  "is_obsidian_vault": true,
+  "smart_blocks": {
+    "embed_blocks": true,
+    "min_chars": 200
+  },
+  "smart_sources": {
+    "single_file_data_path": ".smart-env/smart_sources.json",
+    "min_chars": 200,
+    "embed_model": {
+      "adapter": "transformers",
+      "transformers": {
+        "legacy_transformers": false,
+        "model_key": "TaylorAI/bge-micro-v2"
+      },
+      "TaylorAI/bge-micro-v2": {}
+    }
+  },
+  "file_exclusions": "Untitled,2-Building-Web-Apps-Go/Section3 Building a Basic Web Application/28. Enabling Go Modules and refactoring our code to use packages/An attempt was made to access a socket in a way forbidden by its access permissions..md,2-Building-Web-Apps-Go/Section3 Building a Basic Web Application/28. Enabling Go Modules and refactoring our code to use packages/Why Running Go Projects from Subdirectories Can Cause Issues with Go Modules.md,a. Programming/Rust/Week 2 Deeper into Rust/Day 13-14 - Review; Project Assignment Overview of Blueprint,Instance,Realization,Interaction,Abstraction,Polymorphism,Encapsulation,Concurrency-Parallelism,2-Building-Web-Apps-Go/Section3 Building a Basic Web Application/30. Building a simple template cach/Q&A for section 30/Understanding Slices in Go - From Basics to Practical Usage in Template Parsing.md,2-Building-Web-Apps-Go/Section3 Building a Basic Web Application/35. Optimizing our template cache by using an aplication config/1. After AppConfig/2. Avoid reading templates from the disk repeatedly.md,2-Building-Web-Apps-Go/Section3 Building a Basic Web Application/35. Optimizing our template cache by using an aplication config/1. After AppConfig/4. main.go file serves as the central control point.md,Concurrency-Parallelism/1. Day 1 - 12.md,Concurrency-Parallelism/2. Challange.md,Concurrency-Parallelism/3. Day 14.md,a. Udemy/Dave SkypeLessons/2. Master English Conversation - Pre-Intermediate Level/1. Present Tenses and Continue/6. Present Continuous and Clothes/12. Describing Actions in Pictures Using Present Continuous.md,a. Udemy/Dave SkypeLessons/2. Master English Conversation - Pre-Intermediate Level/1. Present Tenses and Continue/6. Present Continuous and Clothes/17. Questions Using Present Continuous for Practice.md,a. Udemy/Dave SkypeLessons/2. Master English Conversation - Pre-Intermediate Level/1. Present Tenses and Continue/6. Present Continuous and Clothes/19. Examples of How to Form Present Continuous Sentences.md,a. Udemy/Dave SkypeLessons/2. Master English Conversation - Pre-Intermediate Level/1. Present Tenses and Continue/6. Present Continuous and Clothes/3. Usage of Present Continuous for Describing Current Actions.md,a. Udemy/Dave SkypeLessons/2. Master English Conversation - Pre-Intermediate Level/1. Present Tenses and Continue/6. Present Continuous and Clothes/8.  Vocabulary for Describing Clothing and Accessories.md,a. Udemy/Dave SkypeLessons/2. Master English Conversation - Pre-Intermediate Level/3 Future Tenses Modals Conditionals/22. Will and won't (spontaneous promises,offer,suggestions,predictions)/22. Will and won't (spontaneous promises,predictions).md,predictions)/Leitner System 1.md,a. Udemy/Dave SkypeLessons/2. Master English Conversation - Pre-Intermediate Level/3 Future Tenses Modals Conditionals/21. Going to + present continue (future plan)/21. Going to + present continue (future plan).md,a. Udemy/Dave SkypeLessons/2. Master English Conversation - Pre-Intermediate Level/3 Future Tenses Modals Conditionals/24-25 First and Second Conditional/Usage of First and Second Conditionals with Examples.md,a. Udemy/Dave SkypeLessons/2. Master English Conversation - Pre-Intermediate Level/4. Perfect Tenses/29. Past Perfect V Past Simple V Past Continuous/29. Past Perfect V Past Simple V Past Continuous 2.md,a. Udemy/Dave SkypeLessons/2. Master English Conversation - Pre-Intermediate Level/4. Perfect Tenses/29. Past Perfect V Past Simple V Past Continuous/29. Past Perfect V Past Simple V Past Continuous.md,a. Udemy/Dave SkypeLessons/2. Master English Conversation - Pre-Intermediate Level/4. Perfect Tenses/29. Past Perfect V Past Simple V Past Continuous/29. Past Perfect V Past Simple V Past Continuous 3.md,a. Udemy/Dave SkypeLessons/Master English Pronunciation (RP or BCC English)/Section 2 Indicative Fricatives/3. Tongue Twisters - Voiced and Voiceless TH/3.1 – Foundation Drills Core Repetition & Muscle Memory.md,a. Udemy/Dave SkypeLessons/Master English Pronunciation (RP or BCC English)/Section 2 Indicative Fricatives/3. Tongue Twisters - Voiced and Voiceless TH/3.4 – Mastery Twister Mixed Intonation and Homophones.md,ab. CCNA/ab. CCNA 300-201 Neil Anderson/Section 8 Subnetting/45. Subnetting Practice Questions/My Expand/2. When you say usable hosts,do you mean devices such as PCs,routers,switches,printers,and similar network-connected devices.md,ab. CCNA/ab. CCNA 300-201 Neil Anderson/Section 8 Subnetting/45. Subnetting Practice Questions/My Expand/3. When subnetting,do we manually calculate the number of hosts required for our network And are the actual IP addresses provided by the ISP.md,ab. CCNA/ab. CCNA 300-201 Neil Anderson/Section 8 Subnetting/45. Subnetting Practice Questions/My Expand/5. There are two common methods to calculate the subnet increment,and they both lead to the same result..md,ab. CCNA/ab. CCNA 300-201 Neil Anderson/Section 8 Subnetting/45. Subnetting Practice Questions/My Expand/6. Use the subnet increment to add to the last octet of the ISP-provided IP address to determine the network address,broadcast address,and host address range..md,a. Udemy/Mike X Cohen/Master Math By Coding Python/Section 3 Introduction to Sympy and LaTex/27. Example Use Sympy to understand the law of exponents/6. Constructing and Comparing Multiple Expressions (3 Scenarios).md,a. Udemy/Mike X Cohen/Master Math By Coding Python/Section 3 Introduction to Sympy and LaTex/27. Example Use Sympy to understand the law of exponents/7. Rendering Equalities in LaTeX using display(Math(...)) and sym.latex().md,a. Udemy/Mike X Cohen/Master Math By Coding Python/Section 3 Introduction to Sympy and LaTex/27. Example Use Sympy to understand the law of exponents/8. Using sym.Eq(lhs,rhs) to Evaluate Equality (Boolean Logic).md,a. Programming/CSS ChatGPT 2/adequate and essential CSS topics/1. Core Layout and Structure/1. CSS Box Model (margin,border,padding,content)/Part 1 The Four Areas of the Box/1.1 content/1. 🟦 Sub-Part 1 content.md,content)/Part 1 The Four Areas of the Box/0/0. List of contents.md,content)/Part 1 The Four Areas of the Box/1.2 padding/2. 🟨 Sub-Part 2 padding.md,content)/Part 1 The Four Areas of the Box/1.5 Demo/1.5. html + css demo.md,content)/Part 1 The Four Areas of the Box/1.3 border/3. 🟥 Sub-Part 3 border.md,content)/Part 1 The Four Areas of the Box/1.4 margin/4. ⬜ Sub-Part 4 margin.md,a. Programming/Rust/Week 2 Deeper into Rust/Day 13-14 - Review; Project Assignment Overview of Blueprint, Instance, Realization, Interaction, Abstraction, Polymorphism, Encapsulation, Concurrency-Parallelism,a. Programming/Rust/Week 2 Deeper into Rust/Day 13-14 - Review; Project Assignment Overview of Blueprint, Instance, Realization, Interaction, Abstraction, Polymorphism, Encapsulation, Concurrency-Parallelism/2. Challange.md,a. Programming/Rust/Week 2 Deeper into Rust/Day 13-14 - Review; Project Assignment Overview of Blueprint, Instance, Realization, Interaction, Abstraction, Polymorphism, Encapsulation, Concurrency-Parallelism/1. Day 1 - 12.md,a. Programming/Rust/Week 2 Deeper into Rust/Day 13-14 - Review; Project Assignment Overview of Blueprint, Instance, Realization, Interaction, Abstraction, Polymorphism, Encapsulation, Concurrency-Parallelism/3. Day 14.md,a. Udemy/Dave SkypeLessons/2. Master English Conversation - Pre-Intermediate Level/3 Future Tenses Modals Conditionals/22. Will and won't (spontaneous promises, offer, suggestions, predictions)/22. Will and won't (spontaneous promises, offer, suggestions, predictions).md,a. Udemy/Dave SkypeLessons/2. Master English Conversation - Pre-Intermediate Level/3 Future Tenses Modals Conditionals/22. Will and won't (spontaneous promises, offer, suggestions, predictions)/Leitner System 1.md,a. Udemy/Mike X Cohen/Master Math By Coding Python/Section 3 Introduction to Sympy and LaTex/27. Example Use Sympy to understand the law of exponents/8. Using sym.Eq(lhs, rhs) to Evaluate Equality (Boolean Logic).md,ab. CCNA/ab. CCNA 300-201 Neil Anderson/Section 8 Subnetting/45. Subnetting Practice Questions/My Expand/2. When you say usable hosts, do you mean devices such as PCs, routers, switches, printers, and similar network-connected devices.md,ab. CCNA/ab. CCNA 300-201 Neil Anderson/Section 8 Subnetting/45. Subnetting Practice Questions/My Expand/3. When subnetting, do we manually calculate the number of hosts required for our network And are the actual IP addresses provided by the ISP.md,ab. CCNA/ab. CCNA 300-201 Neil Anderson/Section 8 Subnetting/45. Subnetting Practice Questions/My Expand/5. There are two common methods to calculate the subnet increment, and they both lead to the same result..md,ab. CCNA/ab. CCNA 300-201 Neil Anderson/Section 8 Subnetting/45. Subnetting Practice Questions/My Expand/6. Use the subnet increment to add to the last octet of the ISP-provided IP address to determine the network address, broadcast address, and host address range..md,a. Programming/CSS ChatGPT 2/adequate and essential CSS topics/1. Core Layout and Structure/1. CSS Box Model (margin, border, padding, content)/Part 1 The Four Areas of the Box/1.5 Demo/1.5. html + css demo.md,a. Programming/CSS ChatGPT 2/adequate and essential CSS topics/1. Core Layout and Structure/1. CSS Box Model (margin, border, padding, content)/Part 1 The Four Areas of the Box/1.4 margin/4. ⬜ Sub-Part 4 margin.md,a. Programming/CSS ChatGPT 2/adequate and essential CSS topics/1. Core Layout and Structure/1. CSS Box Model (margin, border, padding, content)/Part 1 The Four Areas of the Box/1.3 border/3. 🟥 Sub-Part 3 border.md,a. Programming/CSS ChatGPT 2/adequate and essential CSS topics/1. Core Layout and Structure/1. CSS Box Model (margin, border, padding, content)/Part 1 The Four Areas of the Box/1.2 padding/2. 🟨 Sub-Part 2 padding.md,a. Programming/CSS ChatGPT 2/adequate and essential CSS topics/1. Core Layout and Structure/1. CSS Box Model (margin, border, padding, content)/Part 1 The Four Areas of the Box/1.1 content/1. 🟦 Sub-Part 1 content.md,a. Programming/CSS ChatGPT 2/adequate and essential CSS topics/1. Core Layout and Structure/1. CSS Box Model (margin, border, padding, content)/Part 1 The Four Areas of the Box/0/0. List of contents.md",
+  "folder_exclusions": "smart-chats",
+  "smart_view_filter": {
+    "render_markdown": true,
+    "show_full_path": false,
+    "results_limit": "20"
+  },
+  "smart_notices": {
+    "muted": {
+      "embedding_progress": true
+    }
+  },
+  "excluded_headings": "",
+  "smart_threads": {
+    "chat_model": {
+      "adapter": "openai",
+      "openai": {
+        "model_key": "gpt-4o",
+        "api_key": "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",
+        "models": {
+          "gpt-4o-audio-preview-2024-12-17": {
+            "model_name": "gpt-4o-audio-preview-2024-12-17",
+            "id": "gpt-4o-audio-preview-2024-12-17",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-4o-audio-preview-2024-10-01": {
+            "model_name": "gpt-4o-audio-preview-2024-10-01",
+            "id": "gpt-4o-audio-preview-2024-10-01",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-4.1-nano": {
+            "model_name": "gpt-4.1-nano",
+            "id": "gpt-4.1-nano",
+            "multimodal": false,
+            "can_use_tools": true,
+            "max_input_tokens": 1000000
+          },
+          "gpt-4.1-nano-2025-04-14": {
+            "model_name": "gpt-4.1-nano-2025-04-14",
+            "id": "gpt-4.1-nano-2025-04-14",
+            "multimodal": false,
+            "can_use_tools": true,
+            "max_input_tokens": 1000000
+          },
+          "gpt-4o-realtime-preview-2024-10-01": {
+            "model_name": "gpt-4o-realtime-preview-2024-10-01",
+            "id": "gpt-4o-realtime-preview-2024-10-01",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-4o-realtime-preview": {
+            "model_name": "gpt-4o-realtime-preview",
+            "id": "gpt-4o-realtime-preview",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-4": {
+            "model_name": "gpt-4",
+            "id": "gpt-4",
+            "multimodal": false,
+            "can_use_tools": true,
+            "max_input_tokens": 8192
+          },
+          "gpt-4o-realtime-preview-2024-12-17": {
+            "model_name": "gpt-4o-realtime-preview-2024-12-17",
+            "id": "gpt-4o-realtime-preview-2024-12-17",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-4o-mini-audio-preview": {
+            "model_name": "gpt-4o-mini-audio-preview",
+            "id": "gpt-4o-mini-audio-preview",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-4o-audio-preview": {
+            "model_name": "gpt-4o-audio-preview",
+            "id": "gpt-4o-audio-preview",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "o1-preview-2024-09-12": {
+            "model_name": "o1-preview-2024-09-12",
+            "id": "o1-preview-2024-09-12",
+            "multimodal": false,
+            "can_use_tools": false,
+            "max_input_tokens": 200000
+          },
+          "gpt-4o-mini-realtime-preview": {
+            "model_name": "gpt-4o-mini-realtime-preview",
+            "id": "gpt-4o-mini-realtime-preview",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-4.1-mini": {
+            "model_name": "gpt-4.1-mini",
+            "id": "gpt-4.1-mini",
+            "multimodal": false,
+            "can_use_tools": true,
+            "max_input_tokens": 1000000
+          },
+          "gpt-4o-mini-realtime-preview-2024-12-17": {
+            "model_name": "gpt-4o-mini-realtime-preview-2024-12-17",
+            "id": "gpt-4o-mini-realtime-preview-2024-12-17",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-4o-mini-search-preview": {
+            "model_name": "gpt-4o-mini-search-preview",
+            "id": "gpt-4o-mini-search-preview",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-4.1-mini-2025-04-14": {
+            "model_name": "gpt-4.1-mini-2025-04-14",
+            "id": "gpt-4.1-mini-2025-04-14",
+            "multimodal": false,
+            "can_use_tools": true,
+            "max_input_tokens": 1000000
+          },
+          "gpt-3.5-turbo-1106": {
+            "model_name": "gpt-3.5-turbo-1106",
+            "id": "gpt-3.5-turbo-1106",
+            "multimodal": false,
+            "can_use_tools": true,
+            "max_input_tokens": 16385
+          },
+          "gpt-4o-search-preview": {
+            "model_name": "gpt-4o-search-preview",
+            "id": "gpt-4o-search-preview",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-4-turbo": {
+            "model_name": "gpt-4-turbo",
+            "id": "gpt-4-turbo",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-3.5-turbo": {
+            "model_name": "gpt-3.5-turbo",
+            "id": "gpt-3.5-turbo",
+            "multimodal": false,
+            "can_use_tools": true,
+            "max_input_tokens": 16385
+          },
+          "gpt-4-turbo-preview": {
+            "model_name": "gpt-4-turbo-preview",
+            "id": "gpt-4-turbo-preview",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-4o-mini-search-preview-2025-03-11": {
+            "model_name": "gpt-4o-mini-search-preview-2025-03-11",
+            "id": "gpt-4o-mini-search-preview-2025-03-11",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-4-0125-preview": {
+            "model_name": "gpt-4-0125-preview",
+            "id": "gpt-4-0125-preview",
+            "multimodal": false,
+            "can_use_tools": true,
+            "max_input_tokens": 8192
+          },
+          "gpt-4o-2024-11-20": {
+            "model_name": "gpt-4o-2024-11-20",
+            "id": "gpt-4o-2024-11-20",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-4o-2024-05-13": {
+            "model_name": "gpt-4o-2024-05-13",
+            "id": "gpt-4o-2024-05-13",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-4-turbo-2024-04-09": {
+            "model_name": "gpt-4-turbo-2024-04-09",
+            "id": "gpt-4-turbo-2024-04-09",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-3.5-turbo-16k": {
+            "model_name": "gpt-3.5-turbo-16k",
+            "id": "gpt-3.5-turbo-16k",
+            "multimodal": false,
+            "can_use_tools": true,
+            "max_input_tokens": 16385
+          },
+          "gpt-image-1": {
+            "model_name": "gpt-image-1",
+            "id": "gpt-image-1",
+            "multimodal": false,
+            "can_use_tools": true,
+            "max_input_tokens": 8000
+          },
+          "o1-preview": {
+            "model_name": "o1-preview",
+            "id": "o1-preview",
+            "multimodal": false,
+            "can_use_tools": false,
+            "max_input_tokens": 200000
+          },
+          "gpt-4-0613": {
+            "model_name": "gpt-4-0613",
+            "id": "gpt-4-0613",
+            "multimodal": false,
+            "can_use_tools": true,
+            "max_input_tokens": 8192
+          },
+          "gpt-4o-mini-tts": {
+            "model_name": "gpt-4o-mini-tts",
+            "id": "gpt-4o-mini-tts",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-4o-transcribe": {
+            "model_name": "gpt-4o-transcribe",
+            "id": "gpt-4o-transcribe",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-4.5-preview": {
+            "model_name": "gpt-4.5-preview",
+            "id": "gpt-4.5-preview",
+            "multimodal": false,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-4.5-preview-2025-02-27": {
+            "model_name": "gpt-4.5-preview-2025-02-27",
+            "id": "gpt-4.5-preview-2025-02-27",
+            "multimodal": false,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-4o-mini-transcribe": {
+            "model_name": "gpt-4o-mini-transcribe",
+            "id": "gpt-4o-mini-transcribe",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-4o-search-preview-2025-03-11": {
+            "model_name": "gpt-4o-search-preview-2025-03-11",
+            "id": "gpt-4o-search-preview-2025-03-11",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-4o": {
+            "model_name": "gpt-4o",
+            "id": "gpt-4o",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-4o-mini": {
+            "model_name": "gpt-4o-mini",
+            "id": "gpt-4o-mini",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-4o-2024-08-06": {
+            "model_name": "gpt-4o-2024-08-06",
+            "id": "gpt-4o-2024-08-06",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-4.1": {
+            "model_name": "gpt-4.1",
+            "id": "gpt-4.1",
+            "multimodal": false,
+            "can_use_tools": true,
+            "max_input_tokens": 1000000
+          },
+          "gpt-4.1-2025-04-14": {
+            "model_name": "gpt-4.1-2025-04-14",
+            "id": "gpt-4.1-2025-04-14",
+            "multimodal": false,
+            "can_use_tools": true,
+            "max_input_tokens": 1000000
+          },
+          "gpt-4o-mini-2024-07-18": {
+            "model_name": "gpt-4o-mini-2024-07-18",
+            "id": "gpt-4o-mini-2024-07-18",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "o1-mini": {
+            "model_name": "o1-mini",
+            "id": "o1-mini",
+            "multimodal": false,
+            "can_use_tools": false,
+            "max_input_tokens": 200000
+          },
+          "gpt-4o-mini-audio-preview-2024-12-17": {
+            "model_name": "gpt-4o-mini-audio-preview-2024-12-17",
+            "id": "gpt-4o-mini-audio-preview-2024-12-17",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-3.5-turbo-0125": {
+            "model_name": "gpt-3.5-turbo-0125",
+            "id": "gpt-3.5-turbo-0125",
+            "multimodal": false,
+            "can_use_tools": true,
+            "max_input_tokens": 16385
+          },
+          "o1-mini-2024-09-12": {
+            "model_name": "o1-mini-2024-09-12",
+            "id": "o1-mini-2024-09-12",
+            "multimodal": false,
+            "can_use_tools": false,
+            "max_input_tokens": 200000
+          },
+          "gpt-4-1106-preview": {
+            "model_name": "gpt-4-1106-preview",
+            "id": "gpt-4-1106-preview",
+            "multimodal": false,
+            "can_use_tools": true,
+            "max_input_tokens": 8192
+          }
+        }
+      }
+    },
+    "embed_model": {
+      "model_key": "None"
+    },
+    "language": "en",
+    "review_context": false,
+    "lookup_limit": "10",
+    "send_tool_output_in_user_message": false
+  }
+}
