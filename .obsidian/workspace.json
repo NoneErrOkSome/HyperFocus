@@ -13,15 +13,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "a. Programming/a. TypeScript/1. Beginner Fundamentals/1. Basic Types Breakdown/3. Boolean Type/3. Boolean type.md",
+                "file": "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/1.Array & Hashing/1. Easy/1. Contain Duplicate 2.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Boolean type"
+              "title": "1. Contain Duplicate 2"
+            }
+          },
+          {
+            "id": "bf0f79a62f1df00f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "a. ChatGTP conversation/ADHD Explained in 60 SECONDS..md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ADHD Explained in 60 SECONDS."
+            }
+          },
+          {
+            "id": "e5ae2831f11e0814",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "a. Udemy/Nokolai Schuler/15 Days of SQL - The complete SQL masterclass/Day 1 Getting with SQL/14. SELECT.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "14. SELECT"
+            }
+          },
+          {
+            "id": "c36083d5f8f5c66e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "a. ChatGTP conversation/English Vocabularies/Vocab.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vocab"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -78,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 343.49999618530273
   },
   "right": {
     "id": "bf661cd476a6917a",
@@ -165,9 +208,19 @@
               "icon": "lucide-file",
               "title": "Template Playground"
             }
+          },
+          {
+            "id": "9ed6e93191290542",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -184,48 +237,49 @@
       "command-palette:Open command palette": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "quiz-generator:Open generator": false
     }
   },
-  "active": "06a1ced7a5d6e2bb",
+  "active": "e5ae2831f11e0814",
   "lastOpenFiles": [
-    "a. Programming/a. TypeScript/1. Beginner Fundamentals/1. Basic Types Breakdown/2. String Type/2. String type.md",
-    "a. Programming/a. TypeScript/1. Beginner Fundamentals/1. Basic Types Breakdown/3. Boolean Type/3. Boolean type.md",
-    "a. Programming/a. TypeScript/1. Beginner Fundamentals/1. Basic Types Breakdown/1. Number Type/1. Number Type.md",
-    "a. Udemy/YouTube/CSS/Untitled.md",
-    "Japanese Language/Hiragana.md",
-    "Japanese Language/Katakana.md",
-    "Japanese Language/Hiragana & Katakana.md",
-    "English Vocabularies/Vocab.md",
-    "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/1.Array & Hashing/1. Easy/2.  Valid Anagram 0.md",
-    "English Vocabularies",
-    "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/1.Array & Hashing/3. Hard/26. First Missing Positive.md",
+    "a. ChatGTP conversation/Note/Untitled 2.md",
+    "a. ChatGTP conversation/Untitled 2.md",
+    "a. ChatGTP conversation/Note/Untitled 1.md",
+    "a. ChatGTP conversation/Note/Untitled.md",
+    "a. ChatGTP conversation/Untitled 1.md",
+    "a. ChatGTP conversation/ADHD Explained in 60 SECONDS..md",
+    "a. ChatGTP conversation/Memory Palace.md",
+    "a. Udemy/Jonas Schmedtmann/Build Responsive Real-World Websites with HTML and CSS/Section 7 Omnifood/105. How rem and max-width work/Untitled.md",
+    "a. Udemy/Jonas Schmedtmann/Build Responsive Real-World Websites with HTML and CSS/Section 7 Omnifood/104. Responsive Design Principles/Untitled.md",
+    "a. Udemy/Jonas Schmedtmann/Build Responsive Real-World Websites with HTML and CSS/Section 7 Omnifood/105. How rem and max-width work",
+    "a. Udemy/Jonas Schmedtmann/Build Responsive Real-World Websites with HTML and CSS/Section 7 Omnifood/Untitled/Untitled.md",
+    "a. Udemy/Jonas Schmedtmann/Build Responsive Real-World Websites with HTML and CSS/Section 7 Omnifood/104. Responsive Design Principles",
+    "a. Udemy/Jonas Schmedtmann/Build Responsive Real-World Websites with HTML and CSS/Section 7 Omnifood/100. The 7 Steps to a Great Website/6. Step 5 Testing and Optimization.md",
+    "a. Udemy/Jonas Schmedtmann/Build Responsive Real-World Websites with HTML and CSS/Section 7 Omnifood/Untitled",
+    "a. ChatGTP conversation/Note/5 Laws/Untitled.md",
+    "a. ChatGTP conversation/English Vocabularies/Vocab.md",
+    "a. ChatGTP conversation/Note/5 Laws",
     "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/1.Array & Hashing/1. Easy/1. Contain Duplicate 2.md",
-    "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/0. Roadmap/0. Roadmap.canvas",
-    "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/1.Array & Hashing/1. Easy/1. Contain Duplicate 1.md",
+    "a. ChatGTP conversation/Untitled.md",
+    "a. Programming/a.Python/Python - Data Structure and Algorithms/NeetcodeALL/1. Array & Hashing/1. Easy/1. Contain Duplicate/1. Contain Duplicate 0.md",
+    "a. Programming/a.Python/Python - Data Structure and Algorithms/NeetcodeALL/1. Array & Hashing/1. Easy/1. Contain Duplicate/0. Real World.md",
+    "a. Programming/a.Python/Python - Data Structure and Algorithms/NeetcodeALL/1. Array & Hashing/1. Easy/1. Contain Duplicate/1. Contain Duplicate 2.md",
+    "a. Programming/a.Python/Python - Data Structure and Algorithms/NeetcodeALL/1. Array & Hashing/1. Easy/1. Contain Duplicate",
+    "a. Programming/a.Python/Python - Data Structure and Algorithms/NeetcodeALL/1. Array & Hashing/1. Easy/1. Contain Duplicate/1. Contain Duplicate 1.md",
     "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/1.Array & Hashing/1. Easy/1. Contain Duplicate 0.md",
-    "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/1.Array & Hashing/1. Easy/2. Valid Anagram 1.md",
-    "a. Udemy/Krista King/0. Prompt.md",
-    "textgenerator/templates/default/getEmailPos.md",
-    "textgenerator/templates/default/getEmailNeg.md",
-    "textgenerator/templates/default/summarize.md",
-    "textgenerator/templates/default/summarizeLarge.md",
-    "textgenerator/templates/default/rewrite.md",
-    "a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 3 Data Type/8. Variables/3.md",
-    "a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 3 Data Type/8. Variables/2.md",
-    "a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 3 Data Type/8. Variables/1.md",
-    "a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 3 Data Type/8. Variables/0.1 Variable.md",
-    "a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 3 Data Type/8. Variables/0.md",
-    "a. Udemy/Krista King/Untitled.md",
-    "Prompt",
-    "textgenerator/templates/default",
-    "textgenerator/templates",
-    "textgenerator",
-    "a. Udemy/YouTube/CSS/CSS Grid",
-    "a. Udemy/Jonas Schmedtmann/all-design-guidelines.pdf",
-    "a. Udemy/Jonas Schmedtmann/Build Responsive Real-World Websites with HTML and CSS/Section 7 Omnifood/100. The 7 Steps to a Great Website",
-    "a. Udemy/Jonas Schmedtmann/Build Responsive Real-World Websites with HTML and CSS/Section 7 Omnifood",
-    "a. Udemy/YouTube/HTML"
+    "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/2. Two Pointers/1. Easy/2. Valid Palindrom II.md",
+    "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/2. Two Pointers/1. Easy/1. Valid Palindrome.md",
+    "a. Programming/a.Python/Python - Data Structure and Algorithms/NeetcodeALL/0. Roadmap/0. Roadmap.canvas",
+    "a. Udemy/Jonas Schmedtmann/Build Responsive Real-World Websites with HTML and CSS/Section 5 Web design Rules and Frameworks/Untitled.md",
+    "a. Programming/a.Python/Python - Data Structure and Algorithms/Before diving into Data Structures and Algorithms (DSA).md",
+    "a. Udemy/Jonas Schmedtmann/Build Responsive Real-World Websites with HTML and CSS/Section 5 Web design Rules and Frameworks",
+    "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/1.Array & Hashing/1. Easy/1. Contain Duplicate 1.md",
+    "python dictionary.md",
+    "a. ChatGTP conversation/Note/Leadership",
+    "a. ChatGTP conversation/Note",
+    "a. ChatGTP conversation",
+    "Core Math/Math Crash Course",
+    "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/0. Roadmap/0. Roadmap.canvas"
   ]
 }

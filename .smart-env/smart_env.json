@@ -8,12 +8,17 @@
     "single_file_data_path": ".smart-env/smart_sources.json",
     "min_chars": 200,
     "embed_model": {
-      "adapter": "transformers",
+      "adapter": "openai",
       "transformers": {
         "legacy_transformers": false,
         "model_key": "TaylorAI/bge-micro-v2"
       },
-      "TaylorAI/bge-micro-v2": {}
+      "TaylorAI/bge-micro-v2": {},
+      "openai": {
+        "model_key": "text-embedding-3-large",
+        "api_key": "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"
+      },
+      "text-embedding-3-large": {}
     }
   },
   "file_exclusions": "Untitled,2-Building-Web-Apps-Go/Section3 Building a Basic Web Application/28. Enabling Go Modules and refactoring our code to use packages/An attempt was made to access a socket in a way forbidden by its access permissions..md,2-Building-Web-Apps-Go/Section3 Building a Basic Web Application/28. Enabling Go Modules and refactoring our code to use packages/Why Running Go Projects from Subdirectories Can Cause Issues with Go Modules.md,a. Programming/Rust/Week 2 Deeper into Rust/Day 13-14 - Review; Project Assignment Overview of Blueprint,Instance,Realization,Interaction,Abstraction,Polymorphism,Encapsulation,Concurrency-Parallelism,2-Building-Web-Apps-Go/Section3 Building a Basic Web Application/30. Building a simple template cach/Q&A for section 30/Understanding Slices in Go - From Basics to Practical Usage in Template Parsing.md,2-Building-Web-Apps-Go/Section3 Building a Basic Web Application/35. Optimizing our template cache by using an aplication config/1. After AppConfig/2. Avoid reading templates from the disk repeatedly.md,2-Building-Web-Apps-Go/Section3 Building a Basic Web Application/35. Optimizing our template cache by using an aplication config/1. After AppConfig/4. main.go file serves as the central control point.md,Concurrency-Parallelism/1. Day 1 - 12.md,Concurrency-Parallelism/2. Challange.md,Concurrency-Parallelism/3. Day 14.md,a. Udemy/Dave SkypeLessons/2. Master English Conversation - Pre-Intermediate Level/1. Present Tenses and Continue/6. Present Continuous and Clothes/12. Describing Actions in Pictures Using Present Continuous.md,a. Udemy/Dave SkypeLessons/2. Master English Conversation - Pre-Intermediate Level/1. Present Tenses and Continue/6. Present Continuous and Clothes/17. Questions Using Present Continuous for Practice.md,a. Udemy/Dave SkypeLessons/2. Master English Conversation - Pre-Intermediate Level/1. Present Tenses and Continue/6. Present Continuous and Clothes/19. Examples of How to Form Present Continuous Sentences.md,a. Udemy/Dave SkypeLessons/2. Master English Conversation - Pre-Intermediate Level/1. Present Tenses and Continue/6. Present Continuous and Clothes/3. Usage of Present Continuous for Describing Current Actions.md,a. Udemy/Dave SkypeLessons/2. Master English Conversation - Pre-Intermediate Level/1. Present Tenses and Continue/6. Present Continuous and Clothes/8.  Vocabulary for Describing Clothing and Accessories.md,a. Udemy/Dave SkypeLessons/2. Master English Conversation - Pre-Intermediate Level/3 Future Tenses Modals Conditionals/22. Will and won't (spontaneous promises,offer,suggestions,predictions)/22. Will and won't (spontaneous promises,predictions).md,predictions)/Leitner System 1.md,a. Udemy/Dave SkypeLessons/2. Master English Conversation - Pre-Intermediate Level/3 Future Tenses Modals Conditionals/21. Going to + present continue (future plan)/21. Going to + present continue (future plan).md,a. Udemy/Dave SkypeLessons/2. Master English Conversation - Pre-Intermediate Level/3 Future Tenses Modals Conditionals/24-25 First and Second Conditional/Usage of First and Second Conditionals with Examples.md,a. Udemy/Dave SkypeLessons/2. Master English Conversation - Pre-Intermediate Level/4. Perfect Tenses/29. Past Perfect V Past Simple V Past Continuous/29. Past Perfect V Past Simple V Past Continuous 2.md,a. Udemy/Dave SkypeLessons/2. Master English Conversation - Pre-Intermediate Level/4. Perfect Tenses/29. Past Perfect V Past Simple V Past Continuous/29. Past Perfect V Past Simple V Past Continuous.md,a. Udemy/Dave SkypeLessons/2. Master English Conversation - Pre-Intermediate Level/4. Perfect Tenses/29. Past Perfect V Past Simple V Past Continuous/29. Past Perfect V Past Simple V Past Continuous 3.md,a. Udemy/Dave SkypeLessons/Master English Pronunciation (RP or BCC English)/Section 2 Indicative Fricatives/3. Tongue Twisters - Voiced and Voiceless TH/3.1 – Foundation Drills Core Repetition & Muscle Memory.md,a. Udemy/Dave SkypeLessons/Master English Pronunciation (RP or BCC English)/Section 2 Indicative Fricatives/3. Tongue Twisters - Voiced and Voiceless TH/3.4 – Mastery Twister Mixed Intonation and Homophones.md,ab. CCNA/ab. CCNA 300-201 Neil Anderson/Section 8 Subnetting/45. Subnetting Practice Questions/My Expand/2. When you say usable hosts,do you mean devices such as PCs,routers,switches,printers,and similar network-connected devices.md,ab. CCNA/ab. CCNA 300-201 Neil Anderson/Section 8 Subnetting/45. Subnetting Practice Questions/My Expand/3. When subnetting,do we manually calculate the number of hosts required for our network And are the actual IP addresses provided by the ISP.md,ab. CCNA/ab. CCNA 300-201 Neil Anderson/Section 8 Subnetting/45. Subnetting Practice Questions/My Expand/5. There are two common methods to calculate the subnet increment,and they both lead to the same result..md,ab. CCNA/ab. CCNA 300-201 Neil Anderson/Section 8 Subnetting/45. Subnetting Practice Questions/My Expand/6. Use the subnet increment to add to the last octet of the ISP-provided IP address to determine the network address,broadcast address,and host address range..md,a. Udemy/Mike X Cohen/Master Math By Coding Python/Section 3 Introduction to Sympy and LaTex/27. Example Use Sympy to understand the law of exponents/6. Constructing and Comparing Multiple Expressions (3 Scenarios).md,a. Udemy/Mike X Cohen/Master Math By Coding Python/Section 3 Introduction to Sympy and LaTex/27. Example Use Sympy to understand the law of exponents/7. Rendering Equalities in LaTeX using display(Math(...)) and sym.latex().md,a. Udemy/Mike X Cohen/Master Math By Coding Python/Section 3 Introduction to Sympy and LaTex/27. Example Use Sympy to understand the law of exponents/8. Using sym.Eq(lhs,rhs) to Evaluate Equality (Boolean Logic).md,a. Programming/CSS ChatGPT 2/adequate and essential CSS topics/1. Core Layout and Structure/1. CSS Box Model (margin,border,padding,content)/Part 1 The Four Areas of the Box/1.1 content/1. 🟦 Sub-Part 1 content.md,content)/Part 1 The Four Areas of the Box/0/0. List of contents.md,content)/Part 1 The Four Areas of the Box/1.2 padding/2. 🟨 Sub-Part 2 padding.md,content)/Part 1 The Four Areas of the Box/1.5 Demo/1.5. html + css demo.md,content)/Part 1 The Four Areas of the Box/1.3 border/3. 🟥 Sub-Part 3 border.md,content)/Part 1 The Four Areas of the Box/1.4 margin/4. ⬜ Sub-Part 4 margin.md,a. Programming/Rust/Week 2 Deeper into Rust/Day 13-14 - Review; Project Assignment Overview of Blueprint, Instance, Realization, Interaction, Abstraction, Polymorphism, Encapsulation, Concurrency-Parallelism,a. Programming/Rust/Week 2 Deeper into Rust/Day 13-14 - Review; Project Assignment Overview of Blueprint, Instance, Realization, Interaction, Abstraction, Polymorphism, Encapsulation, Concurrency-Parallelism/2. Challange.md,a. Programming/Rust/Week 2 Deeper into Rust/Day 13-14 - Review; Project Assignment Overview of Blueprint, Instance, Realization, Interaction, Abstraction, Polymorphism, Encapsulation, Concurrency-Parallelism/1. Day 1 - 12.md,a. Programming/Rust/Week 2 Deeper into Rust/Day 13-14 - Review; Project Assignment Overview of Blueprint, Instance, Realization, Interaction, Abstraction, Polymorphism, Encapsulation, Concurrency-Parallelism/3. Day 14.md,a. Udemy/Dave SkypeLessons/2. Master English Conversation - Pre-Intermediate Level/3 Future Tenses Modals Conditionals/22. Will and won't (spontaneous promises, offer, suggestions, predictions)/22. Will and won't (spontaneous promises, offer, suggestions, predictions).md,a. Udemy/Dave SkypeLessons/2. Master English Conversation - Pre-Intermediate Level/3 Future Tenses Modals Conditionals/22. Will and won't (spontaneous promises, offer, suggestions, predictions)/Leitner System 1.md,a. Udemy/Mike X Cohen/Master Math By Coding Python/Section 3 Introduction to Sympy and LaTex/27. Example Use Sympy to understand the law of exponents/8. Using sym.Eq(lhs, rhs) to Evaluate Equality (Boolean Logic).md,ab. CCNA/ab. CCNA 300-201 Neil Anderson/Section 8 Subnetting/45. Subnetting Practice Questions/My Expand/2. When you say usable hosts, do you mean devices such as PCs, routers, switches, printers, and similar network-connected devices.md,ab. CCNA/ab. CCNA 300-201 Neil Anderson/Section 8 Subnetting/45. Subnetting Practice Questions/My Expand/3. When subnetting, do we manually calculate the number of hosts required for our network And are the actual IP addresses provided by the ISP.md,ab. CCNA/ab. CCNA 300-201 Neil Anderson/Section 8 Subnetting/45. Subnetting Practice Questions/My Expand/5. There are two common methods to calculate the subnet increment, and they both lead to the same result..md,ab. CCNA/ab. CCNA 300-201 Neil Anderson/Section 8 Subnetting/45. Subnetting Practice Questions/My Expand/6. Use the subnet increment to add to the last octet of the ISP-provided IP address to determine the network address, broadcast address, and host address range..md,a. Programming/CSS ChatGPT 2/adequate and essential CSS topics/1. Core Layout and Structure/1. CSS Box Model (margin, border, padding, content)/Part 1 The Four Areas of the Box/1.5 Demo/1.5. html + css demo.md,a. Programming/CSS ChatGPT 2/adequate and essential CSS topics/1. Core Layout and Structure/1. CSS Box Model (margin, border, padding, content)/Part 1 The Four Areas of the Box/1.4 margin/4. ⬜ Sub-Part 4 margin.md,a. Programming/CSS ChatGPT 2/adequate and essential CSS topics/1. Core Layout and Structure/1. CSS Box Model (margin, border, padding, content)/Part 1 The Four Areas of the Box/1.3 border/3. 🟥 Sub-Part 3 border.md,a. Programming/CSS ChatGPT 2/adequate and essential CSS topics/1. Core Layout and Structure/1. CSS Box Model (margin, border, padding, content)/Part 1 The Four Areas of the Box/1.2 padding/2. 🟨 Sub-Part 2 padding.md,a. Programming/CSS ChatGPT 2/adequate and essential CSS topics/1. Core Layout and Structure/1. CSS Box Model (margin, border, padding, content)/Part 1 The Four Areas of the Box/1.1 content/1. 🟦 Sub-Part 1 content.md,a. Programming/CSS ChatGPT 2/adequate and essential CSS topics/1. Core Layout and Structure/1. CSS Box Model (margin, border, padding, content)/Part 1 The Four Areas of the Box/0/0. List of contents.md",
@@ -46,6 +51,27 @@
           "gpt-4o-audio-preview-2024-10-01": {
             "model_name": "gpt-4o-audio-preview-2024-10-01",
             "id": "gpt-4o-audio-preview-2024-10-01",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-4-turbo-preview": {
+            "model_name": "gpt-4-turbo-preview",
+            "id": "gpt-4-turbo-preview",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-4-turbo": {
+            "model_name": "gpt-4-turbo",
+            "id": "gpt-4-turbo",
+            "multimodal": true,
+            "can_use_tools": true,
+            "max_input_tokens": 128000
+          },
+          "gpt-4-turbo-2024-04-09": {
+            "model_name": "gpt-4-turbo-2024-04-09",
+            "id": "gpt-4-turbo-2024-04-09",
             "multimodal": true,
             "can_use_tools": true,
             "max_input_tokens": 128000
@@ -162,26 +188,12 @@
             "can_use_tools": true,
             "max_input_tokens": 128000
           },
-          "gpt-4-turbo": {
-            "model_name": "gpt-4-turbo",
-            "id": "gpt-4-turbo",
-            "multimodal": true,
-            "can_use_tools": true,
-            "max_input_tokens": 128000
-          },
           "gpt-3.5-turbo": {
             "model_name": "gpt-3.5-turbo",
             "id": "gpt-3.5-turbo",
             "multimodal": false,
             "can_use_tools": true,
             "max_input_tokens": 16385
-          },
-          "gpt-4-turbo-preview": {
-            "model_name": "gpt-4-turbo-preview",
-            "id": "gpt-4-turbo-preview",
-            "multimodal": true,
-            "can_use_tools": true,
-            "max_input_tokens": 128000
           },
           "gpt-4o-mini-search-preview-2025-03-11": {
             "model_name": "gpt-4o-mini-search-preview-2025-03-11",
@@ -207,13 +219,6 @@
           "gpt-4o-2024-05-13": {
             "model_name": "gpt-4o-2024-05-13",
             "id": "gpt-4o-2024-05-13",
-            "multimodal": true,
-            "can_use_tools": true,
-            "max_input_tokens": 128000
-          },
-          "gpt-4-turbo-2024-04-09": {
-            "model_name": "gpt-4-turbo-2024-04-09",
-            "id": "gpt-4-turbo-2024-04-09",
             "multimodal": true,
             "can_use_tools": true,
             "max_input_tokens": 128000
@@ -375,5 +380,6 @@
     "review_context": false,
     "lookup_limit": "10",
     "send_tool_output_in_user_message": false
-  }
+  },
+  "expanded_view": true
 }

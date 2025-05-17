@@ -136,7 +136,7 @@ __export(src_exports, {
   default: () => SmartConnectionsPlugin
 });
 module.exports = __toCommonJS(src_exports);
-var import_obsidian27 = __toESM(require("obsidian"), 1);
+var import_obsidian28 = __toESM(require("obsidian"), 1);
 
 // node_modules/obsidian-smart-env/smart_env.js
 var import_obsidian11 = require("obsidian");
@@ -22576,28 +22576,40 @@ var ScSettingsTab = class extends import_obsidian22.PluginSettingTab {
 // src/open_note.js
 async function open_note(plugin, target_path, event = null) {
   const env = plugin.env;
-  let targetFile;
-  let block;
   if (target_path.includes(".pdf#page=")) {
     return plugin.app.workspace.openLinkText(target_path, "/");
   }
   if (target_path.endsWith("#")) target_path = target_path.slice(0, -1);
+  let target_file;
+  let block = null;
   if (target_path.includes("#")) {
-    targetFile = plugin.app.metadataCache.getFirstLinkpathDest(target_path.split("#")[0], "");
+    const [file_path] = target_path.split("#");
+    target_file = plugin.app.metadataCache.getFirstLinkpathDest(file_path, "");
     block = env.smart_blocks.get(target_path);
   } else {
-    targetFile = plugin.app.metadataCache.getFirstLinkpathDest(target_path, "");
+    target_file = plugin.app.metadataCache.getFirstLinkpathDest(target_path, "");
+  }
+  if (!target_file) {
+    console.warn(`[open_note] Unable to resolve file for ${target_path}`);
+    return;
   }
   let leaf;
   if (event) {
-    const mod = plugin.obsidian.Keymap.isModEvent(event);
-    leaf = plugin.app.workspace.getLeaf(mod);
+    const is_mod = plugin.obsidian.Keymap.isModEvent(event);
+    const is_alt = plugin.obsidian.Keymap.isModifier(event, "Alt");
+    if (is_mod && is_alt) {
+      leaf = plugin.app.workspace.splitActiveLeaf("vertical");
+    } else if (is_mod) {
+      leaf = plugin.app.workspace.getLeaf(true);
+    } else {
+      leaf = plugin.app.workspace.getMostRecentLeaf();
+    }
   } else {
     leaf = plugin.app.workspace.getMostRecentLeaf();
   }
-  await leaf.openFile(targetFile);
-  if (block?.line_start) {
-    let { editor } = leaf.view;
+  await leaf.openFile(target_file);
+  if (typeof block?.line_start === "number") {
+    const { editor } = leaf.view;
     const pos = { line: block.line_start, ch: 0 };
     editor.setCursor(pos);
     editor.scrollIntoView({ to: pos, from: pos }, true);
@@ -23408,13 +23420,70 @@ function render_sign_in_or_open_smart_plugins(scope_plugin) {
   `;
 }
 
+// src/modals/connections.js
+var import_obsidian27 = require("obsidian");
+var ConnectionsModal = class extends import_obsidian27.FuzzySuggestModal {
+  constructor(plugin) {
+    super(plugin.app);
+    this.plugin = plugin;
+    this.results = [];
+    this.modalEl.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        e.stopPropagation();
+        this.selectActiveSuggestion(e);
+      }
+    });
+  }
+  getItems() {
+    return this.results;
+  }
+  async onOpen() {
+    const active = this.app.workspace.getActiveFile();
+    if (!active) return;
+    const env = this.plugin.env;
+    let entity = env.smart_sources.get(active.path);
+    if (!entity) {
+      env.smart_sources.fs.include_file(active.path);
+      entity = env.smart_sources.init_file_path(active.path);
+      if (!entity) return;
+      await entity.import();
+      await env.smart_sources.process_embed_queue();
+    }
+    if (!entity.vec && entity.should_embed) {
+      entity.queue_embed();
+      await entity.collection.process_embed_queue();
+    }
+    this.results = await entity.find_connections();
+    this.setInstructions([
+      { command: "Enter", purpose: "Open and close modal" },
+      { command: "\u2318/Ctrl + Enter", purpose: "Open in new tab and keep open" },
+      { command: "\u2318/Ctrl + Alt + Enter", purpose: "Open in split (right) and keep open" },
+      { command: "Esc", purpose: "Close" }
+    ]);
+    this.updateSuggestions();
+  }
+  getItemText(connection) {
+    const name = connection.item.name ?? connection.item.key;
+    const score = connection.score?.toFixed(2) ?? "?";
+    return `${score} | ${name}`;
+  }
+  onChooseItem(connection, evt) {
+    const target_path = connection.item.path;
+    this.plugin.open_note(target_path, evt);
+    if (import_obsidian27.Keymap.isModifier(evt, "Mod")) {
+      this.open();
+    }
+  }
+};
+
 // src/index.js
 var {
   Notice: Notice3,
   Plugin,
   requestUrl: requestUrl4,
   Platform: Platform3
-} = import_obsidian27.default;
+} = import_obsidian28.default;
 var SmartConnectionsPlugin = class extends Plugin {
   static get defaults() {
     return default_settings();
@@ -23430,7 +23499,7 @@ var SmartConnectionsPlugin = class extends Plugin {
   }
   // GETTERS
   get obsidian() {
-    return import_obsidian27.default;
+    return import_obsidian28.default;
   }
   get smart_env_config() {
     if (!this._smart_env_config) {
@@ -23656,6 +23725,15 @@ var SmartConnectionsPlugin = class extends Plugin {
         const rand = Math.floor(Math.random() * connections.length / 2);
         const rand_entity = connections[rand];
         this.open_note(rand_entity.item.path);
+      }
+    });
+    this.addCommand({
+      id: "open-connections-modal",
+      name: "Connections Modal",
+      checkCallback: (checking) => {
+        if (checking) return !!this.app.workspace.getActiveFile()?.path;
+        const modal = new ConnectionsModal(this);
+        modal.open();
       }
     });
   }
