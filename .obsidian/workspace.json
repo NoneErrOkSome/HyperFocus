@@ -8,45 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "06a1ced7a5d6e2bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/1.Array & Hashing/1. Easy/1. Contain Duplicate 2.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1. Contain Duplicate 2"
-            }
-          },
-          {
-            "id": "bf0f79a62f1df00f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "a. ChatGTP conversation/ADHD Explained in 60 SECONDS..md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ADHD Explained in 60 SECONDS."
-            }
-          },
-          {
             "id": "e5ae2831f11e0814",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "a. Udemy/Nokolai Schuler/15 Days of SQL - The complete SQL masterclass/Day 1 Getting with SQL/14. SELECT.md",
-                "mode": "source",
-                "source": false
+                "file": "a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 5 Production Possibility Curve/Notes/Video+Notes++5.++The+Production+Possibilities+Curve.pdf"
               },
-              "icon": "lucide-file",
-              "title": "14. SELECT"
+              "icon": "lucide-file-text",
+              "title": "Video+Notes++5.++The+Production+Possibilities+Curve"
             }
           },
           {
@@ -63,8 +33,7 @@
               "title": "Vocab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -243,43 +212,43 @@
   },
   "active": "e5ae2831f11e0814",
   "lastOpenFiles": [
-    "a. ChatGTP conversation/Note/Untitled 2.md",
-    "a. ChatGTP conversation/Untitled 2.md",
-    "a. ChatGTP conversation/Note/Untitled 1.md",
-    "a. ChatGTP conversation/Note/Untitled.md",
-    "a. ChatGTP conversation/Untitled 1.md",
-    "a. ChatGTP conversation/ADHD Explained in 60 SECONDS..md",
-    "a. ChatGTP conversation/Memory Palace.md",
-    "a. Udemy/Jonas Schmedtmann/Build Responsive Real-World Websites with HTML and CSS/Section 7 Omnifood/105. How rem and max-width work/Untitled.md",
-    "a. Udemy/Jonas Schmedtmann/Build Responsive Real-World Websites with HTML and CSS/Section 7 Omnifood/104. Responsive Design Principles/Untitled.md",
-    "a. Udemy/Jonas Schmedtmann/Build Responsive Real-World Websites with HTML and CSS/Section 7 Omnifood/105. How rem and max-width work",
-    "a. Udemy/Jonas Schmedtmann/Build Responsive Real-World Websites with HTML and CSS/Section 7 Omnifood/Untitled/Untitled.md",
-    "a. Udemy/Jonas Schmedtmann/Build Responsive Real-World Websites with HTML and CSS/Section 7 Omnifood/104. Responsive Design Principles",
-    "a. Udemy/Jonas Schmedtmann/Build Responsive Real-World Websites with HTML and CSS/Section 7 Omnifood/100. The 7 Steps to a Great Website/6. Step 5 Testing and Optimization.md",
-    "a. Udemy/Jonas Schmedtmann/Build Responsive Real-World Websites with HTML and CSS/Section 7 Omnifood/Untitled",
-    "a. ChatGTP conversation/Note/5 Laws/Untitled.md",
+    "a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 5 Production Possibility Curve/Notes/5.+++Production+Possibility+Curve.pdf",
+    "a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 5 Production Possibility Curve/0.1. Transcript.md",
+    "a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 1 Introduction to the Foundations of Economics/0.1. Transcript.md",
+    "a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 5 Production Possibility Curve/Notes/Video+Notes++5.++The+Production+Possibilities+Curve.pdf",
+    "a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 5 Production Possibility Curve/Notes",
+    "a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 5 Production Possibility Curve",
+    "a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 4 The Factors of Production/0.1. Transcript.md",
+    "a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 4 The Factors of Production/0.2. Gemini.md",
+    "a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 4 The Factors of Production/0.3. Real World.md",
+    "a. Udemy/Brad Cartwright/Section 1 -  Introduction to the Foundations of Economics/Notes/1.++Microeconomic+Overiew.pdf",
+    "a. Udemy/Brad Cartwright/Section 1 -  Introduction to the Foundations of Economics/0.md",
+    "a. Udemy/Brad Cartwright/Section 1 -  Introduction to the Foundations of Economics/Notes",
+    "a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 3 The Basic Economic Problem/0.md",
+    "a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 1 Introduction to the Foundations of Economics/4..md",
+    "a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 1 Introduction to the Foundations of Economics/3..md",
+    "a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 1 Introduction to the Foundations of Economics/2..md",
+    "a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 1 Introduction to the Foundations of Economics/1..md",
+    "a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 4 The Factors of Production/Notes/Video+Notes++4.++The+Factors+of+Production.pdf",
+    "a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 4 The Factors of Production/Notes/4.++The+Factors+of+Production.pdf",
+    "a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 4 The Factors of Production/Notes",
+    "a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 3 The Basic Economic Problem/0.1. transcript.md",
+    "a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 4 The Factors of Production",
+    "a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 3 The Basic Economic Problem/0.3. Real world.md",
+    "a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 3 The Basic Economic Problem/0.2. Gemini.md",
+    "a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 2 Scarcity, Choice, Opportunity Cost, and Utility/0.1. Transcript.md",
     "a. ChatGTP conversation/English Vocabularies/Vocab.md",
-    "a. ChatGTP conversation/Note/5 Laws",
     "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/1.Array & Hashing/1. Easy/1. Contain Duplicate 2.md",
+    "a. ChatGTP conversation/ADHD Explained in 60 SECONDS..md",
+    "a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 2 Scarcity, Choice, Opportunity Cost, and Utility/0.2. Gemini words.md",
+    "a. Udemy/Brad Cartwright/Section 1 -  Introduction to the Foundations of Economics/7. summary of all 6 parts.md",
     "a. ChatGTP conversation/Untitled.md",
-    "a. Programming/a.Python/Python - Data Structure and Algorithms/NeetcodeALL/1. Array & Hashing/1. Easy/1. Contain Duplicate/1. Contain Duplicate 0.md",
-    "a. Programming/a.Python/Python - Data Structure and Algorithms/NeetcodeALL/1. Array & Hashing/1. Easy/1. Contain Duplicate/0. Real World.md",
-    "a. Programming/a.Python/Python - Data Structure and Algorithms/NeetcodeALL/1. Array & Hashing/1. Easy/1. Contain Duplicate/1. Contain Duplicate 2.md",
-    "a. Programming/a.Python/Python - Data Structure and Algorithms/NeetcodeALL/1. Array & Hashing/1. Easy/1. Contain Duplicate",
-    "a. Programming/a.Python/Python - Data Structure and Algorithms/NeetcodeALL/1. Array & Hashing/1. Easy/1. Contain Duplicate/1. Contain Duplicate 1.md",
-    "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/1.Array & Hashing/1. Easy/1. Contain Duplicate 0.md",
-    "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/2. Two Pointers/1. Easy/2. Valid Palindrom II.md",
-    "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/2. Two Pointers/1. Easy/1. Valid Palindrome.md",
+    "Pasted image 20250518221400.png",
+    "a. ChatGTP conversation/The Role of Professional Knowledge and Competence in Decision-Making.md",
+    "a. ChatGTP conversation/Memory Palace.md",
+    "a. ChatGTP conversation/Curiosity over judement.md",
+    "a. ChatGTP conversation/Untitled 2.md",
     "a. Programming/a.Python/Python - Data Structure and Algorithms/NeetcodeALL/0. Roadmap/0. Roadmap.canvas",
-    "a. Udemy/Jonas Schmedtmann/Build Responsive Real-World Websites with HTML and CSS/Section 5 Web design Rules and Frameworks/Untitled.md",
-    "a. Programming/a.Python/Python - Data Structure and Algorithms/Before diving into Data Structures and Algorithms (DSA).md",
-    "a. Udemy/Jonas Schmedtmann/Build Responsive Real-World Websites with HTML and CSS/Section 5 Web design Rules and Frameworks",
-    "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/1.Array & Hashing/1. Easy/1. Contain Duplicate 1.md",
-    "python dictionary.md",
-    "a. ChatGTP conversation/Note/Leadership",
-    "a. ChatGTP conversation/Note",
-    "a. ChatGTP conversation",
-    "Core Math/Math Crash Course",
     "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/0. Roadmap/0. Roadmap.canvas"
   ]
 }
