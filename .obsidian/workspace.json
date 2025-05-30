@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "a. Online Courses/a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 5 Functions/21. Creating functions/0. Gemini.md",
+                "file": "a. Online Courses/a. Golang by Gemini/Next steps.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0. Gemini"
-            }
-          },
-          {
-            "id": "c36083d5f8f5c66e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "a. ChatGTP conversation/English Vocabularies/Vocab.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Vocab"
+              "title": "Next steps"
             }
           }
         ]
@@ -92,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.49999618530273
+    "width": 357.49999618530273
   },
   "right": {
     "id": "bf661cd476a6917a",
@@ -212,44 +198,46 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "e5ae2831f11e0814",
+  "active": "6e5b5824cfe476e6",
   "lastOpenFiles": [
-    "a. Online Courses/a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 5 Functions/20. Getting help on functions/20. Getting help on functions.md",
-    "a. Online Courses/a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 5 Functions/21. Creating functions/0. Gemini.md",
-    "a. Online Courses/a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 5 Functions/21. Creating functions",
-    "a. Online Courses/a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 5 Functions/19. Python libraries (pandas)/Gemini/1.md",
-    "a. Online Courses/a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 5 Functions/20. Getting help on functions",
-    "a. Online Courses/a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 5 Functions/18. Python libraries (numpy)/Gemini/Untitled.md",
-    "a. Online Courses/a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 5 Functions/19. Python libraries (pandas)/Gemini/Untitled",
-    "a. Online Courses/a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 3 Data Type/8. Variables/3.md",
-    "a. Online Courses/a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 5 Functions/19. Python libraries (pandas)/Gemini",
-    "a. Online Courses/a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 3 Data Type/8. Variables/2.md",
-    "a. Online Courses/a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 3 Data Type/8. Variables/0.1 Variable.md",
-    "a. Online Courses/a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 3 Data Type/8. Variables/0.md",
-    "a. Online Courses/a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 5 Functions/19. Python libraries (pandas)",
-    "a. Online Courses/a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 5 Functions/17. Input and output/Gemini/Untitled.md",
-    "a. Online Courses/a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 5 Functions/18. Python libraries (numpy)/Gemini",
-    "a. Online Courses/a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 5 Functions/17. Input and output/0. summarize.md",
-    "a. Online Courses/a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 5 Functions/17. Input and output/Gemini",
-    "a. Online Courses/a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 5 Functions/18. Python libraries (numpy)/0.md",
-    "a. Online Courses/a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 5 Functions/18. Python libraries (numpy)/1.md",
-    "a. Online Courses/a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 5 Functions/17. Input and output/4.md",
-    "a. Online Courses/a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 5 Functions/17. Input and output/3.md",
-    "a. Online Courses/a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 5 Functions/17. Input and output/2.md",
-    "a. Online Courses/a. Udemy/Mike X Cohen/Master Python programming by solving scientific projects/Section 5 Functions/17. Input and output/1..md",
-    "a. Programming/a.Python/Python - Data Structure and Algorithms/NeetcodeALL/0. Roadmap/1. Big O Notation.md",
-    "a. ChatGTP conversation/Math format prompt/Untitled.md",
-    "a. Programming/a.Python/Python - Data Structure and Algorithms/NeetcodeALL/0. Roadmap/Untitled.md",
-    "a. Programming/a.Python/Python - Data Structure and Algorithms/NeetcodeALL/1. Array & Hashing/1. Easy/1. Contain Duplicate/1. Contain Duplicate 0.1.md",
-    "a. Programming/a.Python/Python - Data Structure and Algorithms/NeetcodeALL/1. Array & Hashing/1. Easy/1. Contain Duplicate/1. Contain Duplicate 0.md",
-    "a. Programming/a.Python/Python - Data Structure and Algorithms/NeetcodeALL/1. Array & Hashing/1. Easy/1. Contain Duplicate/1. Contain Duplicate 1.md",
-    "a. ChatGTP conversation/English Vocabularies/Vocab.md",
-    "a. ChatGTP conversation/ADHD Explained in 60 SECONDS..md",
-    "a. Programming/Data Structure & Algorithms/Arrays/02 RAM/02 RAM.md",
-    "a. Programming/CSS ChatGPT/4. Categorized based on its usage..md",
-    "a. Online Courses/a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 1 Introduction to the Foundations of Economics/Foundations of Economics Vocabulary and Concepts.wav",
-    "a. Online Courses/a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 10 The Circular Flow of Income Model/Notes/10.++Circular+Flow+Model+Diagram.pdf",
-    "a. Online Courses/b. YouTube/System Design Fundamentals",
+    "a. Online Courses/a. Golang by Gemini/Backend Crash Course with Golang/0. Backend Crash Course with Golang for Beginners.md",
+    "a. Online Courses/a. Golang by Gemini/Next steps.md",
+    "a. Online Courses/a. Golang by Gemini/Golang Crash Course by Gemini/0. List of Contents/0. list of contents.md",
+    "a. Online Courses/a. Golang by Gemini",
+    "a. Online Courses/a. Golang by Gemini/Backend Crash Course with Golang",
+    "a. Online Courses/a. Golang by Gemini/Golang Crash Course by Gemini/0. List of Contents",
+    "a. Online Courses/c. Gemini/TypeScript/3.3 interface and class from the ground up.md",
+    "a. Online Courses/a. Golang by Gemini/Golang Crash Course by Gemini",
+    "a. Online Courses/c. Gemini/TypeScript/3.1. differences between interfaces and classes.md",
+    "a. Online Courses/c. Gemini/TypeScript/3. Classes.md",
+    "a. Online Courses/c. Gemini/TypeScript/2. Interface.md",
+    "a. Online Courses/c. Gemini/TypeScript/3.2 interfaces and classes.md",
+    "a. Online Courses/c. Gemini/0. Study English/Writing Practice/29-5-2025/3. writing.md",
+    "a. Online Courses/c. Gemini/0. Study English/Writing Practice/29-5-2025/2.md",
+    "a. Online Courses/c. Gemini/0. Study English/Writing Practice/29-5-2025/1.md",
+    "a. Online Courses/c. Gemini/0. Study English/Writing Practice/Untitled.md",
+    "a. Online Courses/c. Gemini/0. Study English/Writing Practice/29-5-2025",
+    "a. Online Courses/c. Gemini/0. Study English/Writing Practice/1/2.md",
+    "a. Online Courses/c. Gemini/0. Study English/Writing Practice/1/1.md",
+    "a. Online Courses/c. Gemini/0. Study English/Writing Practice/0/0.md",
+    "a. Online Courses/c. Gemini/0. Study English/Writing Practice/0/Prompt.md",
+    "a. Online Courses/c. Gemini/0. Study English/Basic English/10. Passive Voice/10. Passive Voice.md",
+    "a. Online Courses/c. Gemini/0. Study English/Writing Practice/0",
+    "a. Online Courses/c. Gemini/0. Study English/Writing Practice/1",
+    "a. Online Courses/c. Gemini/0. Study English",
+    "a. Online Courses/c. Gemini/0. Study English/Writing Practice",
+    "a. Online Courses/c. Gemini/0. Study English/Basic English/1. Part of Speech/A collective noun.md",
+    "a. Online Courses/c. Gemini/0. Study English/Basic English/1. Part of Speech/AmE and BrE.md",
+    "a. Online Courses/c. Gemini/0. Study English/Basic English/9. Future Tenses/10. Future Tenses.md",
+    "a. Online Courses/c. Gemini/0. Study English/Basic English/19. Conjunction",
+    "a. Online Courses/c. Gemini/0. Study English/Basic English/8. Past Tenses/9. Past Tenses.md",
+    "a. Online Courses/c. Gemini/0. Study English/Basic English/7. Present Tenses/8. Present Tenses.md",
+    "a. Online Courses/c. Gemini/0. Study English/Basic English/6. Subject-Verb Agreement/Subject-verb agreement.md",
+    "a. Online Courses/c. Gemini/0. Study English/Basic English/5. Pronoun/6. Pronoun.md",
+    "a. Online Courses/c. Gemini/0. Study English/Basic English/3. Articles/4. Articles.md",
+    "a. Online Courses/c. Gemini/0. Study English/Basic English/4. Quantifier/5. Quantifier.md",
+    "a. Online Courses/c. Gemini/0. Study English/Basic English/NotebookLM Mind Map (1).png",
+    "NotebookLM Mind Map (1).png",
     "Pasted image 20250518221400.png",
     "a. Programming/a.Python/Python - Data Structure and Algorithms/NeetcodeALL/0. Roadmap/0. Roadmap.canvas",
     "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/0. Roadmap/0. Roadmap.canvas"
