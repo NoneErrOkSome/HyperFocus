@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "a. Online Courses/c. Gemini/Basic English/16. Adverb/16. Adverb.md",
+                "file": "a. Online Courses/a. Golang by Gemini/1. Golang Crash Course by Gemini/Module 1/6. Structs and Methods.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "16. Adverb"
+              "title": "6. Structs and Methods"
             }
           }
         ]
@@ -200,6 +200,13 @@
   },
   "active": "e5ae2831f11e0814",
   "lastOpenFiles": [
+    "a. Online Courses/a. Golang by Gemini/1. Golang Crash Course by Gemini/0. List of Contents/0. list of contents.md",
+    "a. Online Courses/a. Golang by Gemini/1. Golang Crash Course by Gemini/Module 1/6. Structs and Methods.md",
+    "a. Online Courses/a. Golang by Gemini/0. Backend Development - A Pre-Programming Crash Course/Backend Development - A Pre-Programming Crash Course.md",
+    "a. Online Courses/a. TypeScript for Angular by Gemini/0. TypeScript Crash Course for Angular Beginners/0. TypeScript Crash Course for Angular Beginners.md",
+    "a. Online Courses/a. TypeScript for Angular by Gemini/0. TypeScript Crash Course for Angular Beginners/Module 0 Introduction - Why TypeScript in Angular (Very Brief)/Module 0 Introduction - Why TypeScript in Angular.md",
+    "a. Online Courses/a. TypeScript for Angular by Gemini/ChatGPT.md",
+    "a. Online Courses/c. Gemini/Basic English/16. Adverb/16. Adverb.md",
     "a. Online Courses/c. Gemini/Basic English/17. Comparison/17. Comparison.md",
     "a. Online Courses/c. Gemini/Basic English/18. Preposition/18. Prepositions.md",
     "a. Online Courses/c. Gemini/Basic English/19. Conjunction/19. Conjunctions.md",
@@ -207,7 +214,6 @@
     "a. Online Courses/a. Golang by Gemini/1. Golang Crash Course by Gemini/Module 1/5. Pointers.md",
     "a. Online Courses/a. Golang by Gemini/1. Golang Crash Course by Gemini/Module 1/4.  Control flow mechanisms.md",
     "a. Online Courses/a. Golang by Gemini/1. Golang Crash Course by Gemini/Module 1/3. Basic Syntax.md",
-    "a. Online Courses/c. Gemini/Basic English/16. Adverb/16. Adverb.md",
     "a. Online Courses/c. Gemini/Basic English/13. Modal Verb/13. Modal Verb.md",
     "a. Online Courses/c. Gemini/Basic English/14. Reported Speech/14. Reported Speech.md",
     "a. Online Courses/c. Gemini/Basic English/15. Adjective/15. Adjective.md",
@@ -221,21 +227,15 @@
     "a. Online Courses/a. Golang by Gemini/Next steps.md",
     "a. Online Courses/a. Golang by Gemini/1. Golang Crash Course by Gemini/Module 1",
     "a. Online Courses/a. Golang by Gemini/You do not need to learn SD before learning anything.md",
-    "a. Online Courses/a. Golang by Gemini/0. Backend Development - A Pre-Programming Crash Course/Backend Development - A Pre-Programming Crash Course.md",
-    "a. Online Courses/a. TypeScript for Angular by Gemini/0. TypeScript Crash Course for Angular Beginners/0. TypeScript Crash Course for Angular Beginners.md",
     "a. Online Courses/a. TypeScript for Angular by Gemini/0. TypeScript Crash Course for Angular Beginners/Module 1 The Absolute Basics - Variables, Types & Operators",
     "a. Online Courses/a. TypeScript for Angular by Gemini/0. TypeScript Crash Course for Angular Beginners/Module 0 Introduction - Why TypeScript in Angular (Very Brief)",
-    "a. Online Courses/a. TypeScript for Angular by Gemini/0.1. Intermediate TypeScript for Robust Angular Development/0.1. Intermediate TypeScript for Robust Angular Development.md",
     "a. Online Courses/a. TypeScript for Angular by Gemini/0.1. Intermediate TypeScript for Robust Angular Development",
     "a. Online Courses/a. TypeScript for Angular by Gemini/0. TypeScript Crash Course for Angular Beginners",
     "a. Online Courses/a. TypeScript for Angular by Gemini",
     "a. Online Courses/a. Golang by Gemini/0. Backend Development - A Pre-Programming Crash Course",
-    "a. Online Courses/a. Golang by Gemini/2. Backend Crash Course with Golang/0. Backend Crash Course with Golang for Beginners.md",
-    "a. Online Courses/a. Golang by Gemini/1. Golang Crash Course by Gemini/0. List of Contents/0. list of contents.md",
     "a. Online Courses/a. Golang by Gemini",
     "a. Online Courses/a. Golang by Gemini/2. Backend Crash Course with Golang",
     "a. Online Courses/a. Golang by Gemini/1. Golang Crash Course by Gemini/0. List of Contents",
-    "a. Online Courses/c. Gemini/TypeScript/3.3 interface and class from the ground up.md",
     "a. Online Courses/c. Gemini/Basic English/NotebookLM Mind Map (1).png",
     "NotebookLM Mind Map (1).png",
     "Pasted image 20250518221400.png",
