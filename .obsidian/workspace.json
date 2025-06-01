@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "3935c7d8662b3109",
+        "id": "37c6f78657e5173b",
         "type": "tabs",
         "children": [
           {
@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "a. Online Courses/a. Golang by Gemini/1. Golang Crash Course by Gemini/Module 1/6. Structs and Methods.md",
+                "file": "a. Online Courses/a. Udemy/Nokolai Schuler/15 Days of SQL - The complete SQL masterclass/Day 1 Getting with SQL/14. SELECT.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6. Structs and Methods"
+              "title": "14. SELECT"
+            }
+          },
+          {
+            "id": "a2f7550a618c6d4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "a. Programming/a.Python/Python - Data Structure and Algorithms/NeetcodeALL/1. Array & Hashing/1. Easy/1. Contain Duplicate/1. Contain Duplicate 0.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Contain Duplicate 0"
+            }
+          },
+          {
+            "id": "9d6f3b3a61ba9dd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 2/27.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "27"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -78,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.49999618530273
+    "width": 524.5071449279785
   },
   "right": {
     "id": "bf661cd476a6917a",
@@ -198,47 +227,54 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "e5ae2831f11e0814",
+  "active": "9d6f3b3a61ba9dd4",
   "lastOpenFiles": [
-    "a. Online Courses/a. Golang by Gemini/1. Golang Crash Course by Gemini/0. List of Contents/0. list of contents.md",
-    "a. Online Courses/a. Golang by Gemini/1. Golang Crash Course by Gemini/Module 1/6. Structs and Methods.md",
-    "a. Online Courses/a. Golang by Gemini/0. Backend Development - A Pre-Programming Crash Course/Backend Development - A Pre-Programming Crash Course.md",
-    "a. Online Courses/a. TypeScript for Angular by Gemini/0. TypeScript Crash Course for Angular Beginners/0. TypeScript Crash Course for Angular Beginners.md",
-    "a. Online Courses/a. TypeScript for Angular by Gemini/0. TypeScript Crash Course for Angular Beginners/Module 0 Introduction - Why TypeScript in Angular (Very Brief)/Module 0 Introduction - Why TypeScript in Angular.md",
-    "a. Online Courses/a. TypeScript for Angular by Gemini/ChatGPT.md",
-    "a. Online Courses/c. Gemini/Basic English/16. Adverb/16. Adverb.md",
-    "a. Online Courses/c. Gemini/Basic English/17. Comparison/17. Comparison.md",
-    "a. Online Courses/c. Gemini/Basic English/18. Preposition/18. Prepositions.md",
-    "a. Online Courses/c. Gemini/Basic English/19. Conjunction/19. Conjunctions.md",
-    "a. Online Courses/c. Gemini/Basic English/20. Question Tag/20. Question Tags.md",
-    "a. Online Courses/a. Golang by Gemini/1. Golang Crash Course by Gemini/Module 1/5. Pointers.md",
-    "a. Online Courses/a. Golang by Gemini/1. Golang Crash Course by Gemini/Module 1/4.  Control flow mechanisms.md",
-    "a. Online Courses/a. Golang by Gemini/1. Golang Crash Course by Gemini/Module 1/3. Basic Syntax.md",
-    "a. Online Courses/c. Gemini/Basic English/13. Modal Verb/13. Modal Verb.md",
-    "a. Online Courses/c. Gemini/Basic English/14. Reported Speech/14. Reported Speech.md",
-    "a. Online Courses/c. Gemini/Basic English/15. Adjective/15. Adjective.md",
-    "a. Online Courses/c. Gemini/Basic English/11. Conditional Sentence/11. Conditional Sentences.md",
-    "a. Online Courses/c. Gemini/Basic English/12. Non-Finite Verb/12. Non-Finite Verbs.md",
-    "a. Online Courses/c. Gemini/Basic English/10. Passive Voice/10. Passive Voice.md",
-    "a. Online Courses/c. Gemini/Basic English/9. Future Tenses/10. Future Tenses.md",
-    "a. Online Courses/c. Gemini/Basic English/8. Past Tenses/9. Past Tenses.md",
-    "a. Online Courses/c. Gemini/Basic English/7. Present Tenses/8. Present Tenses.md",
-    "a. Online Courses/c. Gemini/Basic English/6. Subject-Verb Agreement/Subject-verb agreement.md",
-    "a. Online Courses/a. Golang by Gemini/Next steps.md",
-    "a. Online Courses/a. Golang by Gemini/1. Golang Crash Course by Gemini/Module 1",
-    "a. Online Courses/a. Golang by Gemini/You do not need to learn SD before learning anything.md",
-    "a. Online Courses/a. TypeScript for Angular by Gemini/0. TypeScript Crash Course for Angular Beginners/Module 1 The Absolute Basics - Variables, Types & Operators",
-    "a. Online Courses/a. TypeScript for Angular by Gemini/0. TypeScript Crash Course for Angular Beginners/Module 0 Introduction - Why TypeScript in Angular (Very Brief)",
-    "a. Online Courses/a. TypeScript for Angular by Gemini/0.1. Intermediate TypeScript for Robust Angular Development",
-    "a. Online Courses/a. TypeScript for Angular by Gemini/0. TypeScript Crash Course for Angular Beginners",
-    "a. Online Courses/a. TypeScript for Angular by Gemini",
-    "a. Online Courses/a. Golang by Gemini/0. Backend Development - A Pre-Programming Crash Course",
-    "a. Online Courses/a. Golang by Gemini",
-    "a. Online Courses/a. Golang by Gemini/2. Backend Crash Course with Golang",
-    "a. Online Courses/a. Golang by Gemini/1. Golang Crash Course by Gemini/0. List of Contents",
-    "a. Online Courses/c. Gemini/Basic English/NotebookLM Mind Map (1).png",
-    "NotebookLM Mind Map (1).png",
-    "Pasted image 20250518221400.png",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 2/26. The switch Statement.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 2/27.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 2/28.md",
+    "a. Online Courses/c. Gemini/Pure Mathematics/Conceptual Math Curriculum By Level/0. Conceptual Math Curriculum By Level/0. Conceptual Math Curriculum By Level.md",
+    "a. Online Courses/c. Gemini/Pure Mathematics/Conceptual Math Curriculum By Level/1. Primary Level (Ages ~5-10, Elementary School)/0. Primary Level.md",
+    "a. Online Courses/c. Gemini/Pure Mathematics/Conceptual Math Curriculum By Level/Untitled 1",
+    "a. Online Courses/c. Gemini/Pure Mathematics/Conceptual Math Curriculum By Level/4. Post-Secondary (University Preparation - Early University)",
+    "a. Online Courses/c. Gemini/Pure Mathematics/Conceptual Math Curriculum By Level/3. Upper Secondary (Ages ~15-18, High School)",
+    "a. Online Courses/c. Gemini/Pure Mathematics/Conceptual Math Curriculum By Level/0. Conceptual Math Curriculum By Level",
+    "a. Online Courses/c. Gemini/Pure Mathematics/Conceptual Math Curriculum By Level/2. Lower Secondary (Ages ~11-14, Middle School)",
+    "a. Online Courses/c. Gemini/Pure Mathematics/Conceptual Math Curriculum By Level/1. Primary Level (Ages ~5-10, Elementary School)",
+    "a. Online Courses/c. Gemini/Pure Mathematics/Conceptual Math Curriculum By Level",
+    "a. Online Courses/c. Gemini/Pure Mathematics/replace the school curriculum.md",
+    "a. Online Courses/c. Gemini/Pure Mathematics/Gemini - Foundation in mathematics.md",
+    "a. Online Courses/a. Udemy/IELTS Vocabulary Strategies for IELTS/IELTS-Vocabulary-Strategies-Comment-Adverbs-Section1.pdf",
+    "a. Online Courses/a. Udemy/IELTS Vocabulary Strategies for IELTS/IELTS-Vocabulary-Strategies-Linking-Words-Section3-Lesson1.pdf",
+    "a. Online Courses/a. Udemy/IELTS Vocabulary Strategies for IELTS/IELTS-Vocabulary-Strategies-Avoiding-Basic-Words-Section7.pdf",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 2/24. Logical Operators.md",
+    "a. Online Courses/c. Gemini/Pure Mathematics/Foundation in mathematics.md",
+    "a. Online Courses/c. Gemini/TypeScript/3.3 interface and class from the ground up.md",
+    "a. Online Courses/c. Gemini/TypeScript/3.2 interfaces and classes.md",
+    "a. Online Courses/c. Gemini/TypeScript/3.1. differences between interfaces and classes.md",
+    "a. Online Courses/c. Gemini/TypeScript/3. Classes.md",
+    "a. Online Courses/c. Gemini/TypeScript/1. Basic Types.md",
+    "a. Online Courses/c. Gemini/TypeScript/0. Core TypeScript Concepts for Angular.md",
+    "Mathematics/Untitled.md",
+    "Mathematics/Untitled 1.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 2/23. Boolean Logic.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 2/22. Equality Operators.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/MyProject/Note.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 2.md",
+    "a. Online Courses/a. Udemy/Nokolai Schuler/15 Days of SQL - The complete SQL masterclass/Day 1 Getting with SQL/14. SELECT.md",
+    "a. Programming/a.Python/Python - Data Structure and Algorithms/NeetcodeALL/1. Array & Hashing/1. Easy/1. Contain Duplicate/1. Contain Duplicate 0.md",
+    "a. Online Courses/a. Udemy/Nokolai Schuler/15 Days of SQL - The complete SQL masterclass/Day 2 Basic Filtering/27. WHERE.md",
+    "a. Online Courses/a. Udemy/Nokolai Schuler/15 Days of SQL - The complete SQL masterclass/Day 2 Basic Filtering/43. LIKE.md",
+    "a. Online Courses/a. Udemy/Nokolai Schuler/15 Days of SQL - The complete SQL masterclass/Day 2 Basic Filtering/33. WHERE with AND, OR.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/complete-javascript-course-copied/18-forkify/starter/src/img/logo.png",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/complete-javascript-course-copied/18-forkify/starter/src/img/icons.svg",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/complete-javascript-course-copied/18-forkify/starter/src/img/favicon.png",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/complete-javascript-course-copied/18-forkify/final/src/img/logo.png",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/complete-javascript-course-copied/18-forkify/final/src/img/favicon.png",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/complete-javascript-course-copied/18-forkify/final/src/img/icons.svg",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/complete-javascript-course-copied/16-Asynchronous/starter/img/img-3.jpg",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/complete-javascript-course-copied/16-Asynchronous/starter/img/img-2.jpg",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/complete-javascript-course-copied/16-Asynchronous/starter/img/img-1.jpg",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/complete-javascript-course-copied/16-Asynchronous/final/img/img-3.jpg",
     "a. Programming/a.Python/Python - Data Structure and Algorithms/NeetcodeALL/0. Roadmap/0. Roadmap.canvas",
     "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/0. Roadmap/0. Roadmap.canvas"
   ]
