@@ -1,7 +1,20 @@
- let js = "amazing";
- 
- if (js == "amazing"); alert("javascript is fun!");
+const jonas = {
+firstName: 'suramethar',
+lastName: 'chantarasmee',
+birthYeah: 2037 - 1991,
+job: 'teacher',
+friends: ['Michael', 'Peter', 'Steven'],
+driverLicense: true,
 
+calAge: function() {
+    this.age = 2037 - this.birthYeah
+    return this.age
+},
 
- console.log(3 + 4 + 11 + 33)
+getSummary: function () {
+    return `${this.firstName} is a ${this.calAge()}, and he has ${this.driverLicense ? 'a' : 'no'} driver's license`;
+}
 
+};
+
+console.log(jonas.getSummary())
