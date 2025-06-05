@@ -4,93 +4,44 @@
     "type": "split",
     "children": [
       {
-        "id": "37c6f78657e5173b",
+        "id": "25e4c5d61ec944e2",
         "type": "tabs",
+        "dimension": 49.87484355444305,
         "children": [
           {
-            "id": "a2f7550a618c6d4f",
+            "id": "7265e86a6932f0c3",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "a. Programming/a.Python/Python - Data Structure and Algorithms/NeetcodeALL/1. Array & Hashing/1. Easy/1. Contain Duplicate/1. Contain Duplicate 0.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "1. Contain Duplicate 0"
-            }
-          },
-          {
-            "id": "9d6f3b3a61ba9dd4",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 3 - JavaScript Fundamental Part 2/35. Function Declarations vs. Expressions.md",
+                "file": "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 7 - JavaScript in the browser DOM/82. Refactoring Our Code The DRY Principle.md",
                 "mode": "preview",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "35. Function Declarations vs. Expressions"
+              "title": "82. Refactoring Our Code The DRY Principle"
             }
           },
           {
-            "id": "9b26f987ebfea115",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/0..md",
-                "mode": "preview",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "0."
-            }
-          },
-          {
-            "id": "a70e5aa96742ac0f",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 1 (Golang Refinements)/16. Go Workspaces, Modules, and Basic Toolchain Commands.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "16. Go Workspaces, Modules, and Basic Toolchain Commands"
-            }
-          },
-          {
-            "id": "4aad73e88a886ce0",
+            "id": "596c01723022bd5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 1 (Golang Refinements)/6. Working with Strings and Runes.md",
+                "file": "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 7 - JavaScript in the browser DOM/82. Refactoring Our Code The DRY Principle.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6. Working with Strings and Runes"
+              "title": "82. Refactoring Our Code The DRY Principle"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "a7c3858c648e548b",
         "type": "tabs",
+        "dimension": 50.125156445556954,
         "children": [
           {
             "id": "9a4df8209537c32e",
@@ -98,12 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 1 (Golang Refinements)/16. Go Workspaces, Modules, and Basic Toolchain Commands.md",
+                "file": "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/0..md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "16. Go Workspaces, Modules, and Basic Toolchain Commands"
+              "title": "0."
+            }
+          },
+          {
+            "id": "ef53eeded464ef16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 1 (Golang Refinements)/1. Values, Variables, and Basic Types in Go.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Values, Variables, and Basic Types in Go"
             }
           }
         ]
@@ -285,42 +250,42 @@
   },
   "active": "9a4df8209537c32e",
   "lastOpenFiles": [
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 1 (Golang Refinements)/15. Idiomatic Conditional Value Assignment.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 1 (Golang Refinements)/14. Statements and Expressions in Go.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 1 (Golang Refinements)/13. Control Flow The switch Statement.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 1 (Golang Refinements)/12. Logical Operators.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 3 - JavaScript Fundamental Part 2/35. Function Declarations vs. Expressions.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 1 (Golang Refinements)/11. Equality (==) and Inequality (!=) Operators.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 1 (Golang Refinements)/10. Boolean Logic and Conditional Evaluation.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 1 (Golang Refinements)/9. Explicit Type Conversions.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 1 (Golang Refinements)/8. Control Flow if else Statements.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 1 (Golang Refinements)/7. The fmt Package - Formatted Input and Output.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 1 (Golang Refinements)/6. Working with Strings and Runes.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 1 (Golang Refinements)/5. Operator Precedence.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 5 Developer Skills and Editor setup/57. Setting up Prettier and VS Code.md",
-    "a. Programming/a.Python/Python - Data Structure and Algorithms/NeetcodeALL/1. Array & Hashing/1. Easy/1. Contain Duplicate/1. Contain Duplicate 0.md",
-    "a. Online Courses/c. Gemini/Pure Mathematics/Conceptual Math Curriculum By Level/1. Primary Level (Ages ~5-10, Elementary School)/1.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 7 - JavaScript in the browser DOM/82. Refactoring Our Code The DRY Principle.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 7 - JavaScript in the browser DOM/81. Implementing Highscores.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/38. Concurrency Basics (Goroutines and Channels.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/37. Advanced Loop Patterns and Nested Loops.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/36. Loop Control - break and continue.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/35. Iteration - The for Loop.md",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/0..md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 1 (Golang Refinements)/16. Go Workspaces, Modules, and Basic Toolchain Commands.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 1 (Golang Refinements)/4. Basic Operators (Arithmetic, Comparison).md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/33.  Interfaces (Defining and Using).md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/32. Accessing Struct Fields, Slice Elements, and Map Values.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/31. Custom Types - Structs.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/30. Collections - Maps (Key-Value Pairs).md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/29. Collections - Slices (Dynamic Views, len, cap, append).md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/28. Collections - Arrays (Fixed-size).md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/27. Reviewing Functions - Best Practices and defer Statement.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/26. Organizing Code Packages and Visibility (Exported-Unexported).md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/25. Anonymous Functions and Closures.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/24. More on the Standard Library.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/23. Panic and Recover.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/22. Error Handling Fundamentals - The error Type.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/21. Understanding nil More Deeply.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/20. Function Signatures, Multiple Return Values, and Named Returns.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/19. Defining and Calling Functions.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/18. Testing in Go.md",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/17. Understanding the Go Compiler and Build Process.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/32. Advanced Loop Patterns and Nested Loops.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/31. Loop Control break and continue.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/30. Iteration The for Loop (All Forms, Including range).md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/29. Methods on Structs (Value vs. Pointer Receivers).md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/28. Accessing Struct Fields, Slice Elements, and Map Values.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/27. Custom Types Structs.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/26. Collections Maps (Key-Value Pairs).md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)/34.  Interfaces (Defining and Using).md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 1 (Golang Refinements)/1. Values, Variables, and Basic Types in Go.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/files/complete-javascript-course-master/06-Modal/modal - style.css",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/files/complete-javascript-course-master/06-Modal/modal - script.js",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/files/complete-javascript-course-master/06-Modal/modal - index.html",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/files/complete-javascript-course-master/06-Modal/index.html",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 2 (Golang Refinements)",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 1 (Golang Refinements)",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 7 - JavaScript in the browser DOM",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 5 Developer Skills and Editor setup",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/MyProject/Untitled",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang",
-    "a. Online Courses/a. Golang by Gemini/3. Golang for Absolute Beginner by Gemini/0.1 Golang Crash Course for Absolute Beginners",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/files/pathways.pdf",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 3 - JavaScript Fundamental Part 2",
-    "a. Online Courses/c. Gemini/Pure Mathematics/Conceptual Math Curriculum By Level/Untitled 1",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/files/complete-javascript-course-copied/18-forkify/starter/src/img/logo.png",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/files/complete-javascript-course-copied/18-forkify/starter/src/img/icons.svg",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/files/complete-javascript-course-copied/18-forkify/starter/src/img/favicon.png",
