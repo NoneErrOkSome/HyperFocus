@@ -6,7 +6,7 @@
       {
         "id": "25e4c5d61ec944e2",
         "type": "tabs",
-        "dimension": 49.04063205417607,
+        "dimension": 48.67788461538461,
         "children": [
           {
             "id": "7265e86a6932f0c3",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 7 - JavaScript in the browser DOM/Untitled.md",
-                "mode": "source",
+                "file": "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/1. Advanced Go course.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "1. Advanced Go course"
             }
           }
         ]
@@ -27,7 +27,7 @@
       {
         "id": "dad49b98daad2ce1",
         "type": "tabs",
-        "dimension": 50.95936794582393,
+        "dimension": 51.32211538461539,
         "children": [
           {
             "id": "3eafc981e5605af7",
@@ -100,7 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 348.5100555419922
+    "width": 455.5100555419922
   },
   "right": {
     "id": "bf661cd476a6917a",
@@ -222,13 +222,28 @@
   },
   "active": "7265e86a6932f0c3",
   "lastOpenFiles": [
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/0..md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/1. Advanced Go course.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/2. Golang Fundamental Part 2 (Golang Refinements)/22. Error Handling Fundamentals - The error Type.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/2. Golang Fundamental Part 2 (Golang Refinements)/28. Collections - Arrays (Fixed-size).md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/2. Golang Fundamental Part 2 (Golang Refinements)/36. Loop Control - break and continue.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/2. Golang Fundamental Part 2 (Golang Refinements)/32. Accessing Struct Fields, Slice Elements, and Map Values.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/2. Golang Fundamental Part 2 (Golang Refinements)/38. Concurrency Basics (Goroutines and Channels.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/1. Golang Fundamental Part 1 (Golang Refinements)/16. Go Workspaces, Modules, and Basic Toolchain Commands.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 8 - How JavaScript Works behind the scenes/96..md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 8 - How JavaScript Works behind the scenes/95.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 8 - How JavaScript Works behind the scenes/94. The JavaScript Engine and Runtime.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/0..md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 8 - How JavaScript Works behind the scenes/93. An High-Level Overview of JavaScript.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 7 - JavaScript in the browser DOM/87.1.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 8 - How JavaScript Works behind the scenes",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 7 - JavaScript in the browser DOM/87. Rolling the Dice.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 7 - JavaScript in the browser DOM/Untitled.md",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 7 - JavaScript in the browser DOM/86. PROJECT 3 - Pig Game.md",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 2 - JavaScript Fundamental Part 1/11. Data Types.md",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/files/complete-javascript-course-master/07-Pig-Game/final/style-pig.css",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/files/complete-javascript-course-master/07-Pig-Game/final/script-pig.js",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/files/complete-javascript-course-master/07-Pig-Game/final/index-Pig.html",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/0..md",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 2 - JavaScript Fundamental Part 1/9. Value and Variables.md",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 7 - JavaScript in the browser DOM/75. What's the DOM and DOM Manipulation.md",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Python Fundamentals - Part 1 - Core Concepts/4. Working with Strings.md",
@@ -238,26 +253,11 @@
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Python Fundamentals - Part 2 - Deeper Dive and Structures/12. More on Functions.md",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Python Fundamentals - Part 1 - Core Concepts/11. Introduction to Functions.md",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Python Fundamentals - Part 2 - Deeper Dive and Structures",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 7 - JavaScript in the browser DOM/82. Refactoring Our Code The DRY Principle.md",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Python Fundamentals - Part 1 - Core Concepts",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/1. Advanced Go course.md",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/0..md",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/Fundamental Part 1 (Golang Refinements)/Untitled",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/3. Golang Advanced Part 3",
-    "a. Online Courses/a. Udemy/Dave SkypeLessons/2. Master English Conversation - Pre-Intermediate Level/1. Present Tenses and Continue/1. Present Simple/1. Present Simple/1.md",
-    "a. Online Courses/a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 1 Introduction to the Foundations of Economics/4..md",
-    "a. Online Courses/a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 1 Introduction to the Foundations of Economics/1..md",
-    "a. Online Courses/a. Udemy/Brad Cartwright/Section 2 Foundation of Economics/Lesson 1 Introduction to the Foundations of Economics/0.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 7 - JavaScript in the browser DOM/84.1.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 7 - JavaScript in the browser DOM/84. Working With Classes.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 7 - JavaScript in the browser DOM/83. Project.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 7 - JavaScript in the browser DOM/Untitled.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 7 - JavaScript in the browser DOM/81. Implementing Highscores.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/1. Golang Fundamental Part 1 (Golang Refinements)/1. Values, Variables, and Basic Types in Go.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/2. Golang Fundamental Part 2 (Golang Refinements)/38. Concurrency Basics (Goroutines and Channels.md",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/files/complete-javascript-course-master/06-Modal/modal - style.css",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/files/complete-javascript-course-master/06-Modal/modal - script.js",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/files/complete-javascript-course-copied/18-forkify/starter/src/img/logo.png",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/files/complete-javascript-course-copied/18-forkify/starter/src/img/icons.svg",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/files/complete-javascript-course-copied/18-forkify/starter/src/img/favicon.png",
