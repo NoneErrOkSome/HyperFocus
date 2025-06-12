@@ -6,7 +6,6 @@
       {
         "id": "25e4c5d61ec944e2",
         "type": "tabs",
-        "dimension": 48.67788461538461,
         "children": [
           {
             "id": "7265e86a6932f0c3",
@@ -14,33 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/1. Advanced Go course.md",
+                "file": "a. Online Courses/d. CSS&HTML - Gemini/lessons/3.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Advanced Go course"
-            }
-          }
-        ]
-      },
-      {
-        "id": "dad49b98daad2ce1",
-        "type": "tabs",
-        "dimension": 51.32211538461539,
-        "children": [
-          {
-            "id": "3eafc981e5605af7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/0..md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "0."
+              "title": "3"
             }
           }
         ]
@@ -220,44 +198,44 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "6e5b5824cfe476e6",
+  "active": "7265e86a6932f0c3",
   "lastOpenFiles": [
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Python Fundamentals - Part 2 - Deeper Dive and Structures/17. Error and Exception Handling.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Python Fundamentals - Part 2 - Deeper Dive and Structures/16. Collections Part 4 - Sets.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Python Fundamentals - Part 2 - Deeper Dive and Structures/15. Collections Part 3 - Dictionaries.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Python Fundamentals - Part 2 - Deeper Dive and Structures/14. Collections Part 2 Tuples.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Python Fundamentals - Part 2 - Deeper Dive and Structures/13. Lambda Functions (Anonymous Functions).md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Python Fundamentals - Part 1 - Core Concepts/Untitled.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Python Fundamentals - Part 1 - Core Concepts/7. Control Flow - Conditional Statements.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/04 - Big O Notation/Why We Rate by the Worst Case.md.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/04 - Big O Notation/What is Big O (The Slowness Rating).md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/04 - Big O Notation/O(n power 2) - Very Very Slow.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/04 - Big O Notation/O(n) - Slow (Linear).md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/04 - Big O Notation/O(log n) - Excellent.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/04 - Big O Notation/Is Big O the Same in All Languages.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/04 - Big O Notation/O(1) - Instant.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/04 - Big O Notation",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/03 - Algorithms/3.2 Searching/01 - Linear Search.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/03 - Algorithms/3.2 Searching/02 - Binary Search (The Shortcut).md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/03 - Algorithms/3.1 Sorting/What is Sorting.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/03 - Algorithms/3.1 Sorting/02a - Selection Sort (Detailed Trace).md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/03 - Algorithms/3.1 Sorting/01 - Bubble Sort.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/03 - Algorithms/3.1 Sorting/02 - Selection Sort.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/03 - Algorithms/3.2 Searching",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/03 - Algorithms/3.1 Sorting",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/03 - Algorithms",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/02 - Data Structures/Stack/02 - How to Use a Stack (Undo Button).md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/02 - Data Structures/Stack/01 - Stack - The Pile of Plates (LIFO).md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/02 - Data Structures/Queue/01 - Queue - The Line at a Shop (FIFO).md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/02 - Data Structures/Array/02 - Why Removing from the Front is Slow.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/02 - Data Structures/Array/01 - Array - The Line of Boxes.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/01 - Core Concepts/Looping by Index vs Looping by Value.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/02 - Data Structures/Stack",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/02 - Data Structures/Queue",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/02 - Data Structures/Array",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/02 - Data Structures",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/01 - Core Concepts",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms",
+    "a. Online Courses/d. CSS&HTML - Gemini/lessons/1.md",
+    "a. Online Courses/d. CSS&HTML - Gemini/lessons/3.md",
+    "a. Online Courses/d. CSS&HTML - Gemini/lessons",
+    "a. Online Courses/d. CSS&HTML - Gemini/lessons/2.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/112. Rest Pattern and parameters/0..md",
+    "a. Online Courses/d. CSS&HTML - Gemini/a-gemini-puppy.jpg",
+    "a. Online Courses/d. CSS&HTML - Gemini/style.css",
+    "a. Online Courses/d. CSS&HTML - Gemini/index.html",
+    "a. Online Courses/d. CSS&HTML - Gemini",
+    "a. Online Courses/CSS&HTML - Gemini",
+    "a. Online Courses/New folder",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/112. Rest Pattern and parameters/112. Rest Pattern and Parameters.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/112. Rest Pattern and parameters",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/110",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/110/110.1.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/110/110. Destructuring Objects.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/108. De-structuring Arrays/1.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/108. De-structuring Arrays/2.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/108. De-structuring Arrays/108. De-structuring Arrays.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/108. De-structuring Arrays",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/108. De-structuring Arrays/108.6 Setting Default Values.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/108. De-structuring Arrays/108.5 Nested Destructuring.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/108. De-structuring Arrays/108.1 Basic Destructuring.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/108. De-structuring Arrays/108.2 Skipping Elements.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/108. De-structuring Arrays/108.4 Destructuring Function Return Values.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/108. De-structuring Arrays/108.3 Switching Variables.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 8 - How JavaScript Works behind the scenes/105.0. Dedicated Q&A.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 8 - How JavaScript Works behind the scenes/105.1 How Memory is Released in the Call Stack (for primitive values)..md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 8 - How JavaScript Works behind the scenes/105.2. The Concept of Garbage Collection in the Heap (for objects).md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 8 - How JavaScript Works behind the scenes/105.4 The Problem of Memory Leaks (what they are, common causes, and how to avoid them)..md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 8 - How JavaScript Works behind the scenes/105.3 How the Mark-and-Sweep Algorithm Works (the process of finding and removing unused objects)..md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 8 - How JavaScript Works behind the scenes/105. Memory Management - Garbage Collection.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/0..md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 8 - How JavaScript Works behind the scenes/96..md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 8 - How JavaScript Works behind the scenes/95.md",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/files/complete-javascript-course-copied/18-forkify/starter/src/img/logo.png",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/files/complete-javascript-course-copied/18-forkify/starter/src/img/icons.svg",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/files/complete-javascript-course-copied/18-forkify/starter/src/img/favicon.png",
@@ -267,7 +245,6 @@
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/files/complete-javascript-course-copied/16-Asynchronous/starter/img/img-3.jpg",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/files/complete-javascript-course-copied/16-Asynchronous/starter/img/img-2.jpg",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/files/complete-javascript-course-copied/16-Asynchronous/starter/img/img-1.jpg",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/files/complete-javascript-course-copied/16-Asynchronous/final/img/img-3.jpg",
     "a. Programming/a.Python/Python - Data Structure and Algorithms/NeetcodeALL/0. Roadmap/0. Roadmap.canvas",
     "a. Programming/a.Python/Python - Data Structure and Algorithms/Neetcode150/0. Roadmap/0. Roadmap.canvas"
   ]

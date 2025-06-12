@@ -1,0 +1,68 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navay;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  color: darkgreen;
+}
+
+img {
+  border: 5px solid navy;
+  border-radius: 50%;
+}
+
+a {
+  color: #ff007f;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+.classroom {
+  display: flex;
+  justify-content: space-around;
+}
+
+header {
+  background-color: #e0f7fa;
+  border: 3px solid #00796b;
+  padding: 20px;
+  width: 45%;
+}
+
+main {
+  background-color: #fffde7;
+  border: 3px;
+  padding: 20px;
+  margin-top: 30px;
+  width: 45%;
+}
+
+footer {
+  text-align: center; /* This centers the text inside */
+  margin-top: 50px; /* Pushes it down from the content above */
+}
+
+/* --- THIS IS OUR MAGIC SPELL FOR PHONES --- */
+
+@media (max-width: 600px) {
+  /* This rule only works on small screens! */
+  .classroom {
+    /* We change the Teacher's command from 'side-by-side' to 'stack in a column' */
+    flex-direction: column;
+  }
+
+  /* We also need to tell the boxes they can be wider now */
+  header,
+  main {
+    /* We tell the students they can now use the FULL width of the phone screen */
+    width: 100%;
+  }
+}
