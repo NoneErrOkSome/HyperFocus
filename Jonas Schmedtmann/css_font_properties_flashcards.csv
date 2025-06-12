@@ -1,0 +1,85 @@
+Front,Back
+font-family,"Font: Typeface
+Property: font-family
+Values:
+- sans-serif
+- serif
+- monospace
+- 'Open Sans', 'Roboto'"
+font-size,"Font: Size
+Property: font-size
+Values:
+- 1rem
+- 16px
+- clamp()
+- em
+- %
+- vw"
+font-weight,"Font: Thickness
+Property: font-weight
+Values:
+- normal
+- bold
+- lighter
+- bolder
+- 100–900"
+font-style,"Font: Italic or Normal
+Property: font-style
+Values:
+- normal
+- italic
+- oblique"
+line-height,"Font: Line Spacing
+Property: line-height
+Values:
+- 1.2
+- 1.5
+- normal
+- unitless values"
+letter-spacing,"Font: Character Spacing
+Property: letter-spacing
+Values:
+- normal
+- 0.05em
+- 1px
+- -0.01em"
+word-spacing,"Font: Word Spacing
+Property: word-spacing
+Values:
+- normal
+- 0.2em
+- 4px"
+text-transform,"Font: Text Casing
+Property: text-transform
+Values:
+- uppercase
+- lowercase
+- capitalize
+- none"
+text-decoration,"Font: Line Effects
+Property: text-decoration
+Values:
+- none
+- underline
+- overline
+- line-through"
+text-align,"Font: Horizontal Alignment
+Property: text-align
+Values:
+- left
+- center
+- right
+- justify"
+font-variant,"Font: Alternate Style
+Property: font-variant
+Values:
+- normal
+- small-caps"
+white-space,"Font: Whitespace Handling
+Property: white-space
+Values:
+- normal
+- nowrap
+- pre
+- pre-wrap
+- pre-line"
