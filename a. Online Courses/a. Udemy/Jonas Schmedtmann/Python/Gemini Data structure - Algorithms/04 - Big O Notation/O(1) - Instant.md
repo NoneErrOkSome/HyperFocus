@@ -44,20 +44,16 @@ Time / Work ⏰
 
 Here are some of the instant actions we have already learned about:
 
-Getting an item from an [[01 - Array - The Line of Boxes]] by its index.
-
+`Getting an item from an` [[01 - Array - The Line of Boxes]] `by its index.`
 The computer can jump directly to my_list[3] without looking at any other items.
 
-Adding an item to the end of a list with .append()
-
+`Adding an item to the end of a list with .append()`
 A new person just joins the back of the line, and nobody else has to move.
 
-Removing an item from the end of a list with .pop()
-
+`Removing an item from the end of a list with .pop()`
 The last person in line just leaves, and nobody else has to move.
 
-Pushing to or Popping from a [[01 - Stack - The Pile of Plates (LIFO)]]
-
+`Pushing to or Popping from a` [[01 - Stack - The Pile of Plates (LIFO)]]
 You only ever touch the single item that is on top.
 
 ---

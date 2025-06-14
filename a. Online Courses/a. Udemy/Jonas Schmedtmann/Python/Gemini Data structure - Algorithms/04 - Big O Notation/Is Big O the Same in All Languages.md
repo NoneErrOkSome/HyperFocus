@@ -20,7 +20,7 @@ We rate an algorithm based on how it performs during its hardest possible job, n
 
 To understand this better, see the note:
 
-[[Why We Rate by the Worst Case.md]]
+[[Why We Rate by the Worst Case]]
 
 ---
 
@@ -34,7 +34,7 @@ We use that name tag to predict the work. For example, if an algorithm is `O(n)`
 
 This also helps us understand the answer to:
 
-[[Is Big O the Same in All Languages.md]]
+[[Is Big O the Same in All Languages]]
 
 ---
 

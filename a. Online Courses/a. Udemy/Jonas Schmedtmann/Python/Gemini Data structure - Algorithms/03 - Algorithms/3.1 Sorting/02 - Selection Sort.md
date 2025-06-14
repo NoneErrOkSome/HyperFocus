@@ -2,7 +2,7 @@
 
 # Selection Sort 🃏
 
-**Selection Sort** is another simple [[What is Sorting.md]] algorithm. Its strategy is very different from [[01 - Bubble Sort]].
+**Selection Sort** is another simple [[What is Sorting]] algorithm. Its strategy is very different from [[01 - Bubble Sort]].
 
 While Bubble Sort focuses on comparing side-by-side neighbors, Selection Sort acts more like a manager. Its main idea is to:
 
@@ -29,6 +29,31 @@ This is because it also uses a loop inside another loop. The outer loop runs abo
 ---
 To see a full example, look at the [[02a - Selection Sort (Detailed Trace)]].
 ## The Python Code
+
+
+```python
+# List of numbers to sort
+numbers = [8, 2, 0, 1, 5]
+
+# Total count of numbers
+n = len(numbers)
+
+# Outer loop to move the boundary between sorted and unsorted parts
+for i in range(n):
+    min_position = i
+
+    # Inner loop to find the smallest number in the unsorted section
+    for j in range(i + 1, n):
+        if numbers[j] < numbers[min_position]:
+            min_position = j
+            
+    # Swap the found smallest number with the current position
+    numbers[i], numbers[min_position] = numbers[min_position], numbers[i]
+
+# Print the sorted list
+print(f"The sorted list is: {numbers}")
+```
+
 
 This is the standard way to write Selection Sort. The comments explain how the code follows our "find the smallest and swap" strategy.
 
@@ -74,3 +99,5 @@ print(f"The sorted list is: {numbers}")
 ---
 
 Tags: `#algorithm` `#sorting`
+
+generate selection sort without comment

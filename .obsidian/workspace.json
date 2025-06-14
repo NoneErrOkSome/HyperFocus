@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/04 - Big O Notation/O(1) - Instant.md",
+                "file": "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure - Algorithms/04 - Big O Notation/Why We Rate by the Worst Case.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "O(1) - Instant"
+              "title": "Why We Rate by the Worst Case"
             }
           }
         ]
@@ -198,11 +198,24 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "9455cb661d7f492e",
+  "active": "6e5b5824cfe476e6",
   "lastOpenFiles": [
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/04 - Big O Notation/O(log n) - Excellent.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/04 - Big O Notation/O(1) - Instant.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure & Algorithms/04 - Big O Notation/Is Big O the Same in All Languages.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure - Algorithms/03 - Algorithms/3.1 Sorting/02 - Selection Sort.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure - Algorithms/02 - Data Structures/Stack/02 - How to Use a Stack (Undo Button).md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure - Algorithms/02 - Data Structures/Stack/01 - Stack - The Pile of Plates (LIFO).md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure - Algorithms/02 - Data Structures/Queue/01 - Queue - The Line at a Shop (FIFO).md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure - Algorithms/02 - Data Structures/Array/02 - Why Removing from the Front is Slow.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure - Algorithms/02 - Data Structures/Array/01 - Array - The Line of Boxes.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure - Algorithms/01 - Core Concepts/Looping by Index vs Looping by Value.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure - Algorithms/01 - Core Concepts/What are Data Structures and Algorithms.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure - Algorithms/04 - Big O Notation/Why We Rate by the Worst Case.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure - Algorithms/04 - Big O Notation/What is Big O (The Slowness Rating).md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure - Algorithms/04 - Big O Notation/O(n) - Slow (Linear).md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure - Algorithms/04 - Big O Notation/O(n power 2) - Very Very Slow.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure - Algorithms/04 - Big O Notation/O(log n) - Excellent.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure - Algorithms/04 - Big O Notation/O(1) - Instant.md",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure - Algorithms/Gemini-Data-structure---Algorithms",
+    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Gemini Data structure - Algorithms/04 - Big O Notation/Is Big O the Same in All Languages.md",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 10 - A closer look at functions/138. Functions Accepting Callback Functions/Simplify.md",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 10 - A closer look at functions/138. Functions Accepting Callback Functions/138. Functions Accepting Callback Functions.md",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 10 - A closer look at functions/137. First-Class and Higher-Order Functions/137. First-Class and Higher-Order Functions.md",
@@ -216,26 +229,13 @@
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/2. Golang Fundamental Part 2 (Golang Refinements)/37. Advanced Loop Patterns and Nested Loops.md",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/2. Golang Fundamental Part 2 (Golang Refinements)/32. Accessing Struct Fields, Slice Elements, and Map Values.md",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/1. Golang Fundamental Part 1 (Golang Refinements)/16. Go Workspaces, Modules, and Basic Toolchain Commands.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/1. Golang Fundamental Part 1 (Golang Refinements)/6. Working with Strings and Runes.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/1. Golang Fundamental Part 1 (Golang Refinements)/4. Basic Operators (Arithmetic, Comparison).md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Golang/1. Golang Fundamental Part 1 (Golang Refinements)/1. Values, Variables, and Basic Types in Go.md",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 10 - A closer look at functions/136. How Passing Arguments Works - Value vs. Reference",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/117. Looping Arrays The for-of Loop/0. Looping Arrays The for-of Loop.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/128. Working with String/130 Working with String 3.md",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 10 - A closer look at functions/135. Default Parameters",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 10 - A closer look at functions",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/files/pathways.pdf",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/128. Working with String/129 Working with String 2.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/128. Working with String/128. Working with String 1.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/118. Enhanced Object Literals/118. Enhanced Object Literals.md",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/128. Working with String",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/118. Enhanced Object Literals/118.1.md",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/118. Enhanced Object Literals",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/Python/Python Fundamentals - Part 2 - Deeper Dive and Structures/17. Error and Exception Handling.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/117. Looping Arrays The for-of Loop/traditional for loop compare to for-of loop.md",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/117. Looping Arrays The for-of Loop/3. Accessing Indexes.md",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/117. Looping Arrays The for-of Loop",
-    "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/Section 9 - Data Structure, Modern Operators and String/112.1 - combine 111 and 112",
     "a. Online Courses/d. CSS&HTML - Gemini/a-gemini-puppy.jpg",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/files/complete-javascript-course-copied/18-forkify/starter/src/img/logo.png",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/files/complete-javascript-course-copied/18-forkify/starter/src/img/icons.svg",

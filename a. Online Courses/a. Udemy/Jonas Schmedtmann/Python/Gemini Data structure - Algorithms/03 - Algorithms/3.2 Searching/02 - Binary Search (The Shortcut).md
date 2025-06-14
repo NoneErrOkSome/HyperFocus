@@ -12,9 +12,9 @@ It has one very important rule that you must always follow:
 
 > **The list must be sorted first!**
 
-This is the main reason we learn about [[What is Sorting.md]]. Sorting a list allows us to use powerful shortcut algorithms like this one.
+This is the main reason we learn about [[What is Sorting]]. Sorting a list allows us to use powerful shortcut algorithms like this one.
 
-Instead of checking one by one like [[01 - Linear Search.md]], the strategy of Binary Search is to **"divide and conquer."** It cuts the area you have to search in half with every single guess.
+Instead of checking one by one like [[01 - Linear Search]], the strategy of Binary Search is to **"divide and conquer."** It cuts the area you have to search in half with every single guess.
 
 ---
 

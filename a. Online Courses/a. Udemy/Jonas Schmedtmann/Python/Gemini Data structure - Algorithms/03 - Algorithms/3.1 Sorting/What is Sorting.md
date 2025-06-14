@@ -20,7 +20,7 @@ Sorting is one of a programmer's most common jobs. We do it for two main reasons
 
 1. **It makes data easy for humans to read.** A list of high scores is much more useful when the highest score is at the top. A list of names is easier to look through when it's in alphabetical order.
     
-2. **It makes searching super fast.** This is the most important reason for a computer. While a simple [[01 - Linear Search.md]] works on any list, very fast searching algorithms are only possible if the list is already sorted. Sorting allows us to use powerful "shortcut" algorithms like [[02 - Binary Search (The Shortcut).md]], which is one of the fastest ways to find things.
+2. **It makes searching super fast.** This is the most important reason for a computer. While a simple [[01 - Linear Search]] works on any list, very fast searching algorithms are only possible if the list is already sorted. Sorting allows us to use powerful "shortcut" algorithms like [[02 - Binary Search (The Shortcut)]], which is one of the fastest ways to find things.
     
 
 ---

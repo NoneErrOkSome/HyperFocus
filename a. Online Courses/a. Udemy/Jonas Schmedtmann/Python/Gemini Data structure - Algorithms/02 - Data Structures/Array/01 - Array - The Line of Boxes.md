@@ -41,7 +41,7 @@ The speed of what you are doing with a list depends on the action. We measure th
 
 - **Removing from the Front (`.pop(0)`):** This is very slow. When the first person leaves the line, everyone else has to shuffle forward to fill the gap.
 - **Big O Rating:** [[O(n) - Slow (Linear)]]
-- You can learn more in this note: [[02 - Why Removing from the Front is Slow.md]]
+- You can learn more in this note: [[02 - Why Removing from the Front is Slow]]
 
 ---
 

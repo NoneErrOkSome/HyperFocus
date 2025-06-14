@@ -6,7 +6,7 @@ Here is the note for **01 - Bubble Sort.md**, created from all the details of ou
 
 # Bubble Sort 🫧
 
-**Bubble Sort** is a simple [[What is Sorting.md]] algorithm.
+**Bubble Sort** is a simple [[What is Sorting]] algorithm.
 
 Its main idea is to repeatedly step through the list, compare side-by-side **neighbors**, and swap them if they are in the wrong order. It keeps doing this until the list is perfectly sorted.
 

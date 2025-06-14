@@ -37,7 +37,7 @@ You can use a normal Python [[01 - Array - The Line of Boxes]] (a `list`) to wor
 
 - **To Enqueue (add to the end):** You use the `.append()` command. This is very fast because a new person just joins the back of the line. This is an `[[O(1) - Instant]]` action.
     
-- **To Dequeue (remove from the front):** You use the `.pop(0)` command. This is slow because when the first person leaves, everyone else has to shuffle forward to fill the gap. This is an [[O(n) - Slow (Linear)]] action. You can read the full explanation here: [[02 - Why Removing from the Front is Slow.md]].
+- **To Dequeue (remove from the front):** You use the `.pop(0)` command. This is slow because when the first person leaves, everyone else has to shuffle forward to fill the gap. This is an [[O(n) - Slow (Linear)]] action. You can read the full explanation here: [[02 - Why Removing from the Front is Slow]].
     
 
 ### Code Example

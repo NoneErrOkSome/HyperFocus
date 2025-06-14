@@ -77,7 +77,7 @@ print(f"The number {item} is at position: {position}")
 
 The biggest advantage of Linear Search is that it **works on any list**, even if it is completely messy and unsorted.
 
-This is different from more powerful algorithms like [[02 - Binary Search (The Shortcut).md]], which require the list to be sorted before they can work.
+This is different from more powerful algorithms like [[02 - Binary Search (The Shortcut)]], which require the list to be sorted before they can work.
 
 ---
 
