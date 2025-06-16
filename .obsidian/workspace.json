@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "a. Online Courses/a. Udemy/Customer Service English Essentials/Section 3 Follow-up Questions/9. In-depth Questions.md",
-                "mode": "source",
+                "file": "a. Online Courses/a. Udemy/Maximilian Schwarzmüller/ChatGPT/Just Enough TypeScript/0.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9. In-depth Questions"
+              "title": "0"
             }
           },
           {
@@ -212,10 +212,12 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "d3f900a07b0cfe78",
+  "active": "6e5b5824cfe476e6",
   "lastOpenFiles": [
-    "a. Online Courses/a. Udemy/Customer Service English Essentials/Section 3 Follow-up Questions/8. Confirming Information.md",
+    "a. Online Courses/a. Golang by Gemini/1. Golang Crash Course by Gemini/0. List of Contents/0. list of contents.md",
+    "a. Online Courses/a. Golang by Gemini/1. Golang Crash Course by Gemini/Module 1/3. Basic Syntax.md",
     "a. Online Courses/a. Udemy/Customer Service English Essentials/Section 3 Follow-up Questions/9. In-depth Questions.md",
+    "a. Online Courses/a. Udemy/Customer Service English Essentials/Section 3 Follow-up Questions/8. Confirming Information.md",
     "a. Online Courses/a. Udemy/Customer Service English Essentials/Section 3 Follow-up Questions/7. Getting More Details.md",
     "a. Online Courses/a. Udemy/Customer Service English Essentials/Section 3 Follow-up Questions/6. Time Details.md",
     "a. Online Courses/a. Udemy/Customer Service English Essentials/Section 2 Greeting Customer/5. What are you calling about.md",
@@ -243,10 +245,8 @@
     "a. Programming/RISC-V/6. Core Assembly Operations/Reinforcement/6.2.2  What Happens When Register Overflows in Arithmetic.md",
     "a. Online Courses/a. Udemy/Dr. Fred Baptiste/Python/Gemini Data structure - Algorithms/Gemini-Data-structure-Algorithms",
     "a. Programming/Learn Rust Programming - Complete Course 🦀/1. Rust by Practice/Update list from ChatGPT.md",
-    "a. Online Courses/a. Udemy/Golang/Stephen Grider/Go/Section 3 Deep into Go/27.2.md",
-    "a. Online Courses/a. Udemy/Golang/Stephen Grider/Go/Section 3 Deep into Go/27.1.md",
-    "a. Online Courses/a. Udemy/Golang/Stephen Grider/Go/Section 3 Deep into Go/27. Joining a Slice of Strings.md",
-    "a. Online Courses/a. Udemy/Golang/Stephen Grider/Go/Section 3 Deep into Go/20. Custom Type Declarations.md",
+    "a. Online Courses/Stephen Grider/Go/Section 3 Deep into Go/27.2.md",
+    "a. Online Courses/Stephen Grider/Go/Section 3 Deep into Go/27.1.md",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/The Complete JavaScript Course 2025/files/pathways.pdf",
     "a. Online Courses/a. Udemy/Jonas Schmedtmann/all-design-guidelines.pdf",
     "a. Online Courses/a. Udemy/Golang",
