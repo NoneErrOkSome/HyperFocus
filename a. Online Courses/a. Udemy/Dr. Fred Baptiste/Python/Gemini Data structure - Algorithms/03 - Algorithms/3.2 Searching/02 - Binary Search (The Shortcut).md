@@ -127,3 +127,11 @@ position = binary_search(my_sorted_numbers, 23) # position will be 5
 ---
 
 Tags: `#algorithm` `#searching`
+
+
+explain in short answer. Tell me about // sign.
+
+
+In the context of programming, particularly in Python, the `//` operator is used for integer division. It divides two numbers and returns the integer part of the quotient, discarding any remainder. This is particularly useful in algorithms like Binary Search to calculate the middle index (`mid`) of a list without getting a fractional result, which is essential when working with indices that must be whole numbers.
+
+For example, if you have `mid = (low + high) // 2`, it ensures that `mid` will always be an integer value representing a valid index within the list.
